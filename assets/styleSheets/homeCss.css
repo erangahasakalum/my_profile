@@ -1,0 +1,60 @@
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url("assets/img/Eranga.png") no-repeat center;
+    /*display: flex;*/
+    align-items: center;
+
+}
+
+.social ul{
+    display: flex;
+    gap: 15px;
+
+}
+
+.social ul li  {
+    font-size: 5px;
+}
+
+.home-content{
+    padding-left: 100px;
+    position: relative;
+    top: 10rem;
+
+}
+
+.social{
+    position: relative;
+    left: 63rem;
+    bottom: 15rem;
+
+}
+
+.profile{
+    position: relative;
+    left: 45rem;
+    bottom: 16rem;
+}
+
+.home-content h1{
+    font-weight: 600;
+    font-size: 60px;
+    position: relative;
+    bottom: 7rem;
+
+}
+
+.home-content h3{
+    position: relative;
+    font-size: 30px;
+    bottom: 8rem;
+}
+
+.home-content p{
+    position: relative;
+    bottom: 5rem;
+    font-size: 30px;
+}
