@@ -1,54 +1,79 @@
-*{
+* {
+    font-family: cursive;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    box-sizing: border-box;
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth;
     list-style: none;
     text-decoration: none;
 }
 
-nav{
-    height: 80px;
-    background: gray;
+:root {
+    --nav-colour: #000000 #7A7A7A;
+    --txt-colour: white;
+    --bg-colour: #181616;
 }
 
-#logo{
-    max-width: 100%;
-    max-height: 100%;
-}
-.logo{
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: 6px;
-    left: 2%;
-
+img {
+    width: 100%;
 }
 
-nav ul{
-    float: right;
-    margin-right: 25px;
+body {
+    color: var(--txt-colour);
+    background-color: var(--bg-colour);
 }
 
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 30px;
+header>nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid white;
+    padding: 18px 100px;
+    background-color: var(--nav-colour);
+    transition: 0.5s linear;
+}
+
+.logo img{
+    width: 70px;
+    position:relative ;
+    right: 5rem;
+}
+
+.menuList{
+    display: flex;
 
 }
 
-nav ul li a{
+.menuList a{
     position: relative;
-    color: white;
-    font-size: 18px;
-    text-transform: capitalize;
+    left: 4rem;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--txt-colour);
 }
 
-nav ul li a:hover{
+.menuList a:hover{
+    background-color: red;
+    border-radius: 0.2rem;
+/*    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;*/
+    transition: 0.5s all linear;
+}
+
+.menu-icon{
     color: black;
+    font-size: 22px;
+    z-index: 100001;
+    cursor: pointer;
+    display: none;
 }
-
-
-
-
-
 

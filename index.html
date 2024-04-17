@@ -11,9 +11,9 @@
 
     <style>
 
-        /* Styles for Mobile Small (up to 320px) */
+       /* !* Styles for Mobile Small (up to 320px) *!
         @media all and (max-width: 320px) {
-            /*navbar*/
+            !*navbar*!
             nav {
                 height: 40px;
                 background: gray;
@@ -60,9 +60,9 @@
 
         }
 
-        /* Styles for Mobile Medium (321px to 375px) */
+        !* Styles for Mobile Medium (321px to 375px) *!
         @media all and (min-width: 321px) and (max-width: 375px) {
-            /*navbar*/
+            !*navbar*!
             nav {
                 height: 60px;
                 background: gray;
@@ -108,9 +108,9 @@
             }
         }
 
-        /* Styles for Mobile Large (376px to 425px) */
+        !* Styles for Mobile Large (376px to 425px) *!
         @media all and (min-width: 376px) and (max-width: 425px) {
-            /*navbar*/
+            !*navbar*!
             nav {
                 height: 60px;
                 background: gray;
@@ -156,9 +156,9 @@
             }
         }
 
-        /* Styles for Tablet (426px to 768px) */
+        !* Styles for Tablet (426px to 768px) *!
         @media all and (min-width: 426px) and (max-width: 768px) {
-            /*navbar*/
+            !*navbar*!
             nav {
                 height: 60px;
                 background: gray;
@@ -206,9 +206,9 @@
 
         }
 
-        /* Styles for Laptop (769px to 1024px) */
+        !* Styles for Laptop (769px to 1024px) *!
         @media all and (min-width: 769px) and (max-width: 1024px) {
-            /*navbar*/
+            !*navbar*!
             nav {
                 height: 80px;
                 background: gray;
@@ -251,9 +251,9 @@
             }
         }
 
-        /* Styles for Laptop Large (1025px to 1400px) */
+        !* Styles for Laptop Large (1025px to 1400px) *!
         @media all and (min-width: 1025px) and (max-width: 1400px) {
-            /*navbar*/
+            !*navbar*!
             nav {
                 height: 80px;
                 background: gray;
@@ -296,36 +296,37 @@
                 display: none;
             }
         }
-
-
+*/
     </style>
 
 </head>
 <body>
 <header>
     <nav>
-        <div class="logo">
+        <a href="#" class="logo">
             <img id="logo" src="assets/img/logo2.png" alt="logo">
-        </div>
+        </a>
 
-        <ul id="menuList">
+        <ul class="menuList">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Education</a></li>
-            <li><a href="#">Skils</a></li>
+            <li><a href="#">Skills</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">Assignment</a></li>
             <li><a href="#">Gallery</a></li>
-            <li id="contact"><a href="#">Contact</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
 
         <div class="menu-icon">
-            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            <i class="fa-solid fa-bars" ></i>
         </div>
+
+
     </nav>
 </header>
 
-<main>
+<!--<main>
     <section class="home">
         <div class="home-content">
             <h1 >Hello,</h1>
@@ -345,7 +346,7 @@
                 <li><a href="https://github.com/erangahasakalum"><img src="assets/img/git.png"></a></li>
             </ul>
 
-            <div>
+            <div id="hireMe">
                 <input type="button" value="Hire Me">
             </div>
         </div>
@@ -507,13 +508,7 @@
     <a href="#"><img src="assets/img/whatsapp.png" height="24" width="24"></a>
 
     <p>Copyright © ErangaHasakalum</p>
-</footer>
--->
-
-<script>
-    let menuList = document.getElementById("menuList")
-    /*menuList.style.maxHeight = "0px";*/
-</script>
+</footer>-->
 
 <script src="assets/font_awesome/fontawesome-free-6.5.1-web/js/all.min.js"></script>
 </body>
