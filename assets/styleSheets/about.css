@@ -1,0 +1,33 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+    bottom: 10rem;
+
+}
+
+.about-img{
+    position: relative;
+    right: 22rem;
+    width: 25vw;
+
+    border: 3px solid var(--main-colour);
+    border-radius: 3px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.about-content h2{
+    text-align: center;
+    line-height: 1.5;
+}
+
+.about-content p{
+    font-size: 2rem;
+    margin: 2rem 0 3rem;
+}
