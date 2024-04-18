@@ -1,3 +1,82 @@
-.social{
-    display: inline-block;
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-content span {
+    color: #7FFF00;
+}
+
+.home-content h1:nth-child(1) {
+    font-size: 8rem;
+    font-weight: 800;
+
+}
+
+.home-content h1:nth-child(2) {
+    font-size: 5rem;
+    font-weight: 500;
+
+}
+
+.home-content h3 {
+    font-size: 3rem;
+}
+
+.home-image img {
+    width: 35vw;
+    animation: floatImage 4s ease-in-out infinite;
+
+}
+
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2.4rem);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--main-colour);
+    border-radius: 50%;
+    font-size: 2rem;
+    margin: 3rem 1.5rem 3rem 0;
+
+}
+
+.social-media a:hover {
+    background: var(--second-bg-colour);
+    box-shadow: 0 0 1rem var(--main-colour);
+}
+
+#hire-me {
+    position: relative;
+    bottom: 0.5rem;
+    left: 2rem;
+    padding: 1rem 2.8rem;
+    background: var(--main-colour);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-colour);
+    font-size: 1.6rem;
+    color: var(--bg-colour);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+
+}
+
+#hire-me:hover {
+    box-shadow: none;
 }
