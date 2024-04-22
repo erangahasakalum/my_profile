@@ -13,39 +13,194 @@
 
 
     <link href="assets/normilize_css/normalize.css" rel="stylesheet">
-    <link href="assets/styleSheets/headerCss.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/font_awesome/fontawesome-free-6.5.1-web/css/all.min.css">
-    <link rel="stylesheet" href="assets/styleSheets/homeCss.css">
-    <link rel="stylesheet" href="assets/styleSheets/about.css">
+    <link href="assets/styleSheets/css.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
           integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
           integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
     <style>
 
         /* Styles for Mobile Small (up to 320px) */
         @media all and (max-width: 320px) {
             /*navbar*/
+            .icon{
+                display: inline-flex;
+                position: absolute;
+                right: 7%;
+                font-size: 1.2rem;
+            }
 
+            #logo{
+                width: 3rem;
+                position: relative;
+                left: 1rem;
+            }
+
+            nav{
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                height: 21rem;
+                background: #7FFF00;
+            }
+
+            header nav a{
+                display: block;
+                text-align: center;
+                margin: 1.3rem 0;
+                font-size: 1rem;
+            }
+
+            header::before{
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: var(--nav-colour);
+            }
+
+            #close-icon{
+                display: none;
+            }
         }
 
         /* Styles for Mobile Medium (321px to 375px) */
         @media all and (min-width: 321px) and (max-width: 375px) {
             /*navbar*/
+            .icon{
+                display: inline-flex;
+                position: absolute;
+                right: 7%;
+                font-size: 1.3rem;
+            }
 
+            #logo{
+                width: 4rem;
+                position: relative;
+                left: 1rem;
+            }
+
+            nav{
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                height: 22rem;
+                background: #7FFF00;
+            }
+
+            header nav a{
+                display: block;
+                text-align: center;
+                margin: 1.3rem 0;
+                font-size: 1.1rem;
+            }
+
+            header::before{
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: var(--nav-colour);
+            }
+
+            #close-icon{
+                display: none;
+            }
         }
 
         /* Styles for Mobile Large (376px to 425px) */
         @media all and (min-width: 376px) and (max-width: 425px) {
             /*navbar*/
+            .icon{
+                display: inline-flex;
+                position: absolute;
+                right: 7%;
+                font-size: 2rem;
+            }
+
+            #logo{
+                width: 5rem;
+                position: relative;
+                left: 1rem;
+            }
+
+            nav{
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                height: 24rem;
+                background: #7FFF00;
+            }
+
+            header nav a{
+                display: block;
+                text-align: center;
+                margin: 1.5rem 0;
+                font-size: 1.2rem;
+            }
+
+            header::before{
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: var(--nav-colour);
+            }
+
+            #close-icon{
+                display: none;
+            }
 
         }
 
         /* Styles for Tablet (426px to 768px) */
         @media all and (min-width: 426px) and (max-width: 768px) {
-            /*navbar*/
+            .icon{
+                display: inline-flex;
+                position: absolute;
+                right: 7%;
+                font-size: 2rem;
+            }
+
+            #logo{
+                width: 6rem;
+                position: relative;
+                left: 1rem;
+            }
+
+            nav{
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                height: 26rem;
+                background: var(--main-colour);
+            }
+
+            header nav a{
+                display: block;
+                text-align: center;
+                margin: 1.5rem 0;
+                font-size: 1.3rem;
+            }
+
+            header::before{
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: var(--nav-colour);
+            }
+
+            #close-icon{
+                display: none;
+            }
 
 
         }
@@ -53,32 +208,96 @@
         /* Styles for Laptop (769px to 1024px) */
         @media all and (min-width: 769px) and (max-width: 1024px) {
             /*navbar*/
+            header nav a{
+                font-size: 1.1rem;
+                margin-right: 1.3rem;
+            }
 
+            #logo{
+                position: relative;
+                left: 0.8rem;
+                width: 6rem;
+            }
+
+            nav{
+                margin-right: 6px;
+            }
 
         }
+
+        /* Styles for Laptop (1025 to 1400) */
+        @media all and (min-width: 1025px) and (max-width: 1440px) {
+            /*navBar*/
+            header{
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                padding: 5px 5px;
+                background: var(--nav-colour);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                z-index: 100;
+            }
+
+            #logo{
+                position: relative;
+                left: 1.5rem;
+            }
+
+            header nav a{
+                font-size: 1.15rem;
+                color: white;
+                text-decoration: none;
+                font-weight: 500;
+                margin-right: 2.5rem;
+                /* text-transform: uppercase;*/
+            }
+
+            header nav a span{
+                color: red;
+            }
+
+            header nav a:hover{
+                color: black;
+            }
+
+            .icon{
+                font-size: 2.3rem;
+                color: white;
+                cursor: pointer;
+                display: none;
+            }
+
+        }
+
     </style>
 
 </head>
 <body>
 <!--header design-->
-<header class="header">
-    <a href="#" class="logo"><img src="assets/img/logo2.png" alt="logo"></a>
+<header>
+        <img id="logo" src="assets/img/logo2.png" alt="">
 
-    <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <label class="icon">
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+            <i class="fa-solid fa-x" id="close-icon"></i>
+        </label>
 
-    <nav class="nav-bar">
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skill</a>
-        <a href="#projects">Project</a>
-        <a href="#assignment">Assignment</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact"><span>Contact</span></a>
-    </nav>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skill</a>
+            <a href="#projects">Project</a>
+            <a href="#assignment">Assignment</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact"><span>Contact</span></a>
+        </nav>
 </header>
-<main>
-    <!--home section design-->
+<!--<main>
+    &lt;!&ndash;home section design&ndash;&gt;
     <section class="home" id="home">
         <div class="home-content">
             <h1><span>He</span>llo<span>,</span></h1>
@@ -100,7 +319,7 @@
         </div>
     </section>
 
-    <!--about section design-->
+    &lt;!&ndash;about section design&ndash;&gt;
     <section class="about" id="about">
         <div class="about-img">
             <img src="assets/img/about_pic.jpg" alt="">
@@ -113,29 +332,20 @@
 
             <a href="#" class="btn-cv">Download CV</a>
         </div>
-    </section>
+    </section>-->
 
-    <!--education section design-->
-    <section class="education" id="education">
-        <p id="education-head">EDUCATION</p>
-
-        <div>
-            <p>K/Padagoda Maha Vidyalaya <br>2007-2017</p>
-            <img src="assets/img/padagoda.png" width="100" height="100">
-
-            <p>D/S Senanayaka National College <br>2017-2019</p>
-            <img src="assets/img/ds.png" width="100" height="100">
-
-            <p>Aquainas College <br>2002</p>
-            <img src="assets/img/aquinas.png" width="100" height="100">
-
-            <p>Institute of Softwere Engineering <br>2023</p>
-            <img src="assets/img/ijse.jpg" width="100" height="100">
-
+<!--    &lt;!&ndash;education section design&ndash;&gt;
+    <section class="education-area" id="education">
+        <div class="edu-area">
+            <div id="main-line"></div>
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <div class="line" id="line4"></div>
         </div>
     </section>
-    <br>
-    <section>
+
+    <section id="skills">
         <label>SKILLS</label>
         <br><br>
         <div>
@@ -243,18 +453,18 @@
 
             <input type="button" value="Send Massege">
         </div>
-    </section>
-    <br>
+    </section>-->
+
 </main>
-<br>
-<footer>
+
+<!--<footer>
     <a href="#"><img src="assets/img/linkind.png" height="24" width="24"></a>
     <a href="#"><img src="assets/img/facebook.png" height="24" width="24"></a>
     <a href="#"><img src="assets/img/git.png" height="24" width="24"></a>
     <a href="#"><img src="assets/img/whatsapp.png" height="24" width="24"></a>
 
     <p>Copyright © ErangaHasakalum</p>
-</footer>
+</footer>-->
 
 <script src="assets/font_awesome/fontawesome-free-6.5.1-web/js/all.min.js"></script>
 </body>
