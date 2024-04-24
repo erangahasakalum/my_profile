@@ -1,0 +1,22 @@
+/*about section*/
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /*bottom: 15rem;*/
+}
+
+.about-img{
+    width: 500px;
+}
+
+.home-label{
+    width: 10rem;
+    height: 4rem;
+    background-color: var(--main-colour);
+    text-align: center;
+    /*margin-right:40%;*/
+    margin-bottom: 50%;
+
+}
