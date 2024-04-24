@@ -26,20 +26,20 @@
         /* Styles for Mobile Small (up to 320px) */
         @media all and (max-width: 320px) {
             /*navbar*/
-            .icon{
+            .icon {
                 display: inline-flex;
                 position: absolute;
                 right: 7%;
                 font-size: 1.2rem;
             }
 
-            #logo{
+            #logo {
                 width: 3rem;
                 position: relative;
                 left: 1rem;
             }
 
-            nav{
+            nav {
                 position: absolute;
                 top: 100%;
                 left: 0;
@@ -48,14 +48,14 @@
                 background: #7FFF00;
             }
 
-            header nav a{
+            header nav a {
                 display: block;
                 text-align: center;
                 margin: 1.3rem 0;
                 font-size: 1rem;
             }
 
-            header::before{
+            header::before {
                 content: "";
                 position: absolute;
                 width: 100%;
@@ -63,7 +63,7 @@
                 background: var(--nav-colour);
             }
 
-            #close-icon{
+            #close-icon {
                 display: none;
             }
         }
@@ -71,20 +71,20 @@
         /* Styles for Mobile Medium (321px to 375px) */
         @media all and (min-width: 321px) and (max-width: 375px) {
             /*navbar*/
-            .icon{
+            .icon {
                 display: inline-flex;
                 position: absolute;
                 right: 7%;
                 font-size: 1.3rem;
             }
 
-            #logo{
+            #logo {
                 width: 4rem;
                 position: relative;
                 left: 1rem;
             }
 
-            nav{
+            nav {
                 position: absolute;
                 top: 100%;
                 left: 0;
@@ -93,14 +93,14 @@
                 background: #7FFF00;
             }
 
-            header nav a{
+            header nav a {
                 display: block;
                 text-align: center;
                 margin: 1.3rem 0;
                 font-size: 1.1rem;
             }
 
-            header::before{
+            header::before {
                 content: "";
                 position: absolute;
                 width: 100%;
@@ -108,7 +108,7 @@
                 background: var(--nav-colour);
             }
 
-            #close-icon{
+            #close-icon {
                 display: none;
             }
         }
@@ -116,20 +116,20 @@
         /* Styles for Mobile Large (376px to 425px) */
         @media all and (min-width: 376px) and (max-width: 425px) {
             /*navbar*/
-            .icon{
+            .icon {
                 display: inline-flex;
                 position: absolute;
                 right: 7%;
                 font-size: 2rem;
             }
 
-            #logo{
+            #logo {
                 width: 5rem;
                 position: relative;
                 left: 1rem;
             }
 
-            nav{
+            nav {
                 position: absolute;
                 top: 100%;
                 left: 0;
@@ -138,14 +138,14 @@
                 background: #7FFF00;
             }
 
-            header nav a{
+            header nav a {
                 display: block;
                 text-align: center;
                 margin: 1.5rem 0;
                 font-size: 1.2rem;
             }
 
-            header::before{
+            header::before {
                 content: "";
                 position: absolute;
                 width: 100%;
@@ -153,7 +153,7 @@
                 background: var(--nav-colour);
             }
 
-            #close-icon{
+            #close-icon {
                 display: none;
             }
 
@@ -161,20 +161,20 @@
 
         /* Styles for Tablet (426px to 768px) */
         @media all and (min-width: 426px) and (max-width: 768px) {
-            .icon{
+            .icon {
                 display: inline-flex;
                 position: absolute;
                 right: 7%;
                 font-size: 2rem;
             }
 
-            #logo{
+            #logo {
                 width: 6rem;
                 position: relative;
                 left: 1rem;
             }
 
-            nav{
+            nav {
                 position: absolute;
                 top: 100%;
                 left: 0;
@@ -183,14 +183,14 @@
                 background: var(--main-colour);
             }
 
-            header nav a{
+            header nav a {
                 display: block;
                 text-align: center;
                 margin: 1.5rem 0;
                 font-size: 1.3rem;
             }
 
-            header::before{
+            header::before {
                 content: "";
                 position: absolute;
                 width: 100%;
@@ -198,7 +198,7 @@
                 background: var(--nav-colour);
             }
 
-            #close-icon{
+            #close-icon {
                 display: none;
             }
 
@@ -208,27 +208,61 @@
         /* Styles for Laptop (769px to 1024px) */
         @media all and (min-width: 769px) and (max-width: 1024px) {
             /*navbar*/
-            header nav a{
+            header nav a {
                 font-size: 1.1rem;
                 margin-right: 1.3rem;
             }
 
-            #logo{
+            #logo {
                 position: relative;
                 left: 0.8rem;
                 width: 6rem;
             }
 
-            nav{
-                margin-right: 6px;
+            nav {
+                margin-right: 0.8vw;
             }
 
+            /*home section*/
+            .home-content h1:nth-child(1) {
+                font-family: cursive;
+                font-size: 4rem;
+            }
+
+            .home-content h1:nth-child(2) {
+                font-size: 3rem;
+            }
+
+            .home-content h3 {
+                font-size: 1.5rem;
+            }
+
+            .home-image img{
+                width: 300px;
+                position: relative;
+                left: 1rem;
+                bottom: 1.5rem;
+            }
+
+            #hire-me{
+                font-size: 1rem;
+                position: relative;
+                bottom: 4rem;
+            }
+
+            .social-icon a {
+                width: 2.5rem;
+                height: 2.5rem;
+                font-size: 1.2rem;
+                position: relative;
+                left: 0.8rem;
+            }
         }
 
         /* Styles for Laptop (1025 to 1400) */
         @media all and (min-width: 1025px) and (max-width: 1440px) {
             /*navBar*/
-            header{
+            header {
                 position: fixed;
                 top: 0;
                 left: 0;
@@ -241,12 +275,17 @@
                 z-index: 100;
             }
 
-            #logo{
+            nav {
+                position: relative;
+                margin-right: 2rem;
+            }
+
+            #logo {
                 position: relative;
                 left: 1.5rem;
             }
 
-            header nav a{
+            header nav a {
                 font-size: 1.15rem;
                 color: white;
                 text-decoration: none;
@@ -255,20 +294,22 @@
                 /* text-transform: uppercase;*/
             }
 
-            header nav a span{
+            header nav a span {
                 color: red;
             }
 
-            header nav a:hover{
-                color: black;
+            header nav a:hover {
+                color: var(--bg-colour);
             }
 
-            .icon{
+            .icon {
                 font-size: 2.3rem;
                 color: white;
                 cursor: pointer;
                 display: none;
             }
+
+            /*home section*/
 
         }
 
@@ -278,182 +319,184 @@
 <body>
 <!--header design-->
 <header>
-        <img id="logo" src="assets/img/logo2.png" alt="">
+    <img id="logo" src="assets/img/logo2.png" alt="">
 
-        <label class="icon">
-            <i class="fa-solid fa-bars" id="menu-icon"></i>
-            <i class="fa-solid fa-x" id="close-icon"></i>
-        </label>
+    <label class="icon">
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <i class="fa-solid fa-x" id="close-icon"></i>
+    </label>
 
-        <nav>
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#education">Education</a>
-            <a href="#skills">Skill</a>
-            <a href="#projects">Project</a>
-            <a href="#assignment">Assignment</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#contact"><span>Contact</span></a>
-        </nav>
+    <nav>
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skill</a>
+        <a href="#projects">Project</a>
+        <a href="#assignment">Assignment</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact"><span>Contact</span></a>
+    </nav>
 </header>
-<!--<main>
-    &lt;!&ndash;home section design&ndash;&gt;
+<main>
+    <!--home section design-->
     <section class="home" id="home">
         <div class="home-content">
             <h1><span>He</span>llo<span>,</span></h1>
             <h1><span>I</span>'<span>m</span> Eranga <br>Hasakalum.</h1>
             <h3>Full stack Software Developer<span>.</span></h3>
 
-            <div class="social-media">
+            <div class="social-icon">
                 <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="#"><i class="fa-brands fa-facebook"></i></a>
                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
                 <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
 
+            <div class="btn">
                 <button type="button" id="hire-me">Hire Me</button>
             </div>
-        </div>
 
+        </div>
         <div class="home-image">
             <img src="assets/img/Eranga.png" alt="">
         </div>
     </section>
 
-    &lt;!&ndash;about section design&ndash;&gt;
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="assets/img/about_pic.jpg" alt="">
-        </div>
+      <!--about section design-->
+      <section class="about" id="about">
+          <div class="about-img">
+              <img src="assets/img/about_pic.jpg" alt="">
+          </div>
 
-        <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <p>I am Eranga Hasakalum. I am <br> currently living in Beruwala. Currently <br>I am doing a diploma in
-                software <br> engineering from IJSE - Institute of <br>Software Engineering.</p>
+          <div class="about-content">
+              <h2 class="heading">About <span>Me</span></h2>
+              <p>I am Eranga Hasakalum. I am <br> currently living in Beruwala. Currently <br>I am doing a diploma in
+                  software <br> engineering from IJSE - Institute of <br>Software Engineering.</p>
 
-            <a href="#" class="btn-cv">Download CV</a>
-        </div>
-    </section>-->
+              <a href="#" class="btn-cv">Download CV</a>
+          </div>
+      </section>
 
-<!--    &lt;!&ndash;education section design&ndash;&gt;
-    <section class="education-area" id="education">
-        <div class="edu-area">
-            <div id="main-line"></div>
-            <div class="line" id="line1"></div>
-            <div class="line" id="line2"></div>
-            <div class="line" id="line3"></div>
-            <div class="line" id="line4"></div>
-        </div>
-    </section>
+<!--      &lt;!&ndash;education section design&ndash;&gt;
+      <section class="education-area" id="education">
+          <div class="edu-area">
+              <div id="main-line"></div>
+              <div class="line" id="line1"></div>
+              <div class="line" id="line2"></div>
+              <div class="line" id="line3"></div>
+              <div class="line" id="line4"></div>
+          </div>
+      </section>
 
-    <section id="skills">
-        <label>SKILLS</label>
-        <br><br>
-        <div>
-            <img src="assets/img/mysql.png" height="100" width="100">
-            <img src="assets/img/html.png" height="100" width="100">
-            <img src="assets/img/css.png" height="100" width="100">
-            <img src="assets/img/figma.png" height="100" width="100">
+      <section id="skills">
+          <label>SKILLS</label>
+          <br><br>
+          <div>
+              <img src="assets/img/mysql.png" height="100" width="100">
+              <img src="assets/img/html.png" height="100" width="100">
+              <img src="assets/img/css.png" height="100" width="100">
+              <img src="assets/img/figma.png" height="100" width="100">
 
-            <br>
-            <br>
+              <br>
+              <br>
 
-            <img src="assets/img/mysql.png" width="100" height="100">
-            <img src="assets/img/linux.png" width="100" height="100">
-            <img src="assets/img/github.png" width="100" height="100">
-        </div>
-    </section>
-    <br>
-    <section>
-        <label>CERTIFICATE</label>
-        <br><br>
+              <img src="assets/img/mysql.png" width="100" height="100">
+              <img src="assets/img/linux.png" width="100" height="100">
+              <img src="assets/img/github.png" width="100" height="100">
+          </div>
+      </section>
+      <br>
+      <section>
+          <label>CERTIFICATE</label>
+          <br><br>
 
-        <div>
-            <img src="assets/img/certificate.jpg" width="200" height="200">
-        </div>
-    </section>
-    <br>
-    <section>
-        <label>PROJECTS</label>
-        <br><br>
+          <div>
+              <img src="assets/img/certificate.jpg" width="200" height="200">
+          </div>
+      </section>
+      <br>
+      <section>
+          <label>PROJECTS</label>
+          <br><br>
 
-        <div>
-            <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
-            <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
-            <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
-            <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
-            <br>
-            <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
-            <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
-            <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
-            <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
-            <br>
+          <div>
+              <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
+              <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
+              <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
+              <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
+              <br>
+              <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
+              <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
+              <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
+              <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
+              <br>
 
-            <input type="button" value="View More">
-        </div>
-    </section>
-    <br>
-    <section>
-        <label>ASSIGNMENTS</label>
-        <br><br>
-        <div>
-            <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
-            <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
-            <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
-            <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
+              <input type="button" value="View More">
+          </div>
+      </section>
+      <br>
+      <section>
+          <label>ASSIGNMENTS</label>
+          <br><br>
+          <div>
+              <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
+              <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
+              <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
+              <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
 
-            <br>
-            <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
-            <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
-            <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
-            <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
-            <br>
+              <br>
+              <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
+              <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
+              <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
+              <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
+              <br>
 
-            <input type="button" value="View More">
-        </div>
-    </section>
-    <br>
-    <section>
-        <label>GALLERY</label>
-        <br>
-        <br>
+              <input type="button" value="View More">
+          </div>
+      </section>
+      <br>
+      <section>
+          <label>GALLERY</label>
+          <br>
+          <br>
 
-        <div>
-            <a href="#"><img src="assets/img/g1.jpg" height="100" width="100"></a>
-            <a href="#"><img src="assets/img/g2.jpg" height="100" width="100"></a>
-            <a href="#"><img src="assets/img/g3.jpg" height="100" width="100"></a>
-            <a href="#"><img src="assets/img/g4.jpg" height="100" width="100"></a>
-            <br>
-            <input type="button" value="View More">
-        </DIV>
-    </section>
-    <br>
-    <section>
-        <label>CONTACT</label>
-        <br><br>
+          <div>
+              <a href="#"><img src="assets/img/g1.jpg" height="100" width="100"></a>
+              <a href="#"><img src="assets/img/g2.jpg" height="100" width="100"></a>
+              <a href="#"><img src="assets/img/g3.jpg" height="100" width="100"></a>
+              <a href="#"><img src="assets/img/g4.jpg" height="100" width="100"></a>
+              <br>
+              <input type="button" value="View More">
+          </DIV>
+      </section>
+      <br>
+      <section>
+          <label>CONTACT</label>
+          <br><br>
 
-        <div>
-            <img src="assets/img/call.png" width="40" height="40">
-            <h4>Call Me</h4>
-            <a href="tel:+94 766553787">+94 766553787</a>
+          <div>
+              <img src="assets/img/call.png" width="40" height="40">
+              <h4>Call Me</h4>
+              <a href="tel:+94 766553787">+94 766553787</a>
 
-            <img src="assets/img/location.png" width="40" height="40">
-            <h4>No:33 Ambepitiya Beruwala.</h4>
+              <img src="assets/img/location.png" width="40" height="40">
+              <h4>No:33 Ambepitiya Beruwala.</h4>
 
-            <img src="assets/img/email.png" width="40" height="40">
-            <h4>Email</h4>
-            <a href="#">erangahasakalum6761@gmail.com</a>
-        </div>
-        <br>
-        <div>
-            <input type="text" placeholder="Your Name">
-            <input type="text" placeholder="Your Email">
-            <br><br>
-            <textarea>Your Massege</textarea>
-            <br>
+              <img src="assets/img/email.png" width="40" height="40">
+              <h4>Email</h4>
+              <a href="#">erangahasakalum6761@gmail.com</a>
+          </div>
+          <br>
+          <div>
+              <input type="text" placeholder="Your Name">
+              <input type="text" placeholder="Your Email">
+              <br><br>
+              <textarea>Your Massege</textarea>
+              <br>
 
-            <input type="button" value="Send Massege">
-        </div>
-    </section>-->
+              <input type="button" value="Send Massege">
+          </div>
+      </section>-->
 
 </main>
 
