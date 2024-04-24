@@ -15,53 +15,11 @@ img {
     max-width: 100%;
 }
 
-section {
-    min-height: 100vh;
-    padding: 2rem 9% 10rem;
+section{
+    height: 100%;
 }
 
-/*header design*/
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 5px 5px;
-    background: var(--nav-colour);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}
 
-#logo {
-    position: relative;
-    left: 1.5rem;
-}
-
-header nav a {
-    font-size: 1.15rem;
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    margin-right: 2.5rem;
-    /* text-transform: uppercase;*/
-}
-
-header nav a span {
-    color: red;
-}
-
-header nav a:hover {
-    color: var(--bg-colour);
-}
-
-.icon {
-    font-size: 2.3rem;
-    color: white;
-    cursor: pointer;
-    display: none;
-}
 
 
 /*home section*/
@@ -69,6 +27,7 @@ header nav a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 2rem 9% 10rem;
 }
 
 .home-content{
@@ -160,6 +119,29 @@ header nav a:hover {
 
 .home-content h3 {
     font-size: 2rem;
+}
+
+/*about section*/
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /*bottom: 15rem;*/
+}
+
+.about-img{
+    width: 500px;
+}
+
+.home-label{
+    width: 10rem;
+    height: 4rem;
+    background-color: var(--main-colour);
+    text-align: center;
+    /*margin-right:40%;*/
+    margin-bottom: 50%;
+
 }
 
 
