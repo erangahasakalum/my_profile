@@ -21,302 +21,10 @@
           integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
+    <link rel="stylesheet" href="assets/styleSheets/css.css">
     <link rel="stylesheet" href="assets/styleSheets/navBar.css">
     <link rel="stylesheet" href="assets/styleSheets/home.css">
-
-    <style>
-
-        /* Styles for Mobile Small (up to 320px) */
-        @media all and (max-width: 320px) {
-            /*navbar*/
-            .icon {
-                display: inline-flex;
-                position: absolute;
-                right: 7%;
-                font-size: 1.2rem;
-            }
-
-            #logo {
-                width: 3rem;
-                position: relative;
-                left: 1rem;
-            }
-
-            nav {
-                position: absolute;
-                top: 100%;
-                left: 0;
-                width: 100%;
-                height: 21rem;
-                background: #7FFF00;
-            }
-
-            header nav a {
-                display: block;
-                text-align: center;
-                margin: 1.3rem 0;
-                font-size: 1rem;
-            }
-
-            header::before {
-                content: "";
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                background: var(--nav-colour);
-            }
-
-            #close-icon {
-                display: none;
-            }
-        }
-
-        /* Styles for Mobile Medium (321px to 375px) */
-        @media all and (min-width: 321px) and (max-width: 375px) {
-            /*navbar*/
-            .icon {
-                display: inline-flex;
-                position: absolute;
-                right: 7%;
-                font-size: 1.3rem;
-            }
-
-            #logo {
-                width: 4rem;
-                position: relative;
-                left: 1rem;
-            }
-
-            nav {
-                position: absolute;
-                top: 100%;
-                left: 0;
-                width: 100%;
-                height: 22rem;
-                background: #7FFF00;
-            }
-
-            header nav a {
-                display: block;
-                text-align: center;
-                margin: 1.3rem 0;
-                font-size: 1.1rem;
-            }
-
-            header::before {
-                content: "";
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                background: var(--nav-colour);
-            }
-
-            #close-icon {
-                display: none;
-            }
-        }
-
-        /* Styles for Mobile Large (376px to 425px) */
-        @media all and (min-width: 376px) and (max-width: 425px) {
-            /*navbar*/
-            .icon {
-                display: inline-flex;
-                position: absolute;
-                right: 7%;
-                font-size: 2rem;
-            }
-
-            #logo {
-                width: 5rem;
-                position: relative;
-                left: 1rem;
-            }
-
-            nav {
-                position: absolute;
-                top: 100%;
-                left: 0;
-                width: 100%;
-                height: 24rem;
-                background: #7FFF00;
-            }
-
-            header nav a {
-                display: block;
-                text-align: center;
-                margin: 1.5rem 0;
-                font-size: 1.2rem;
-            }
-
-            header::before {
-                content: "";
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                background: var(--nav-colour);
-            }
-
-            #close-icon {
-                display: none;
-            }
-
-        }
-
-        /* Styles for Tablet (426px to 768px) */
-        @media all and (min-width: 426px) and (max-width: 768px) {
-            .icon {
-                display: inline-flex;
-                position: absolute;
-                right: 7%;
-                font-size: 2rem;
-            }
-
-            #logo {
-                width: 6rem;
-                position: relative;
-                left: 1rem;
-            }
-
-            nav {
-                position: absolute;
-                top: 100%;
-                left: 0;
-                width: 100%;
-                height: 26rem;
-                background: var(--main-colour);
-            }
-
-            header nav a {
-                display: block;
-                text-align: center;
-                margin: 1.5rem 0;
-                font-size: 1.3rem;
-            }
-
-            header::before {
-                content: "";
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                background: var(--nav-colour);
-            }
-
-            #close-icon {
-                display: none;
-            }
-
-
-        }
-
-        /* Styles for Laptop (769px to 1024px) */
-        @media all and (min-width: 769px) and (max-width: 1024px) {
-            /*navbar*/
-            header nav a {
-                font-size: 1.1rem;
-                margin-right: 1.3rem;
-            }
-
-            #logo {
-                position: relative;
-                left: 0.8rem;
-                width: 6rem;
-            }
-
-            nav {
-                margin-right: 0.8vw;
-            }
-
-            /*home section*/
-            .home-content h1:nth-child(1) {
-                font-family: cursive;
-                font-size: 4rem;
-            }
-
-            .home-content h1:nth-child(2) {
-                font-size: 3rem;
-            }
-
-            .home-content h3 {
-                font-size: 1.5rem;
-            }
-
-            .home-image img {
-                width: 300px;
-                position: relative;
-                left: 1rem;
-                bottom: 1.5rem;
-            }
-
-            #hire-me {
-                font-size: 1rem;
-                position: relative;
-                bottom: 4rem;
-            }
-
-            .social-icon a {
-                width: 2.5rem;
-                height: 2.5rem;
-                font-size: 1.2rem;
-                position: relative;
-                left: 0.8rem;
-            }
-        }
-
-        /* Styles for Laptop (1025 to 1400) */
-        @media all and (min-width: 1025px) and (max-width: 1440px) {
-            /*navBar*/
-            header {
-                position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                padding: 5px 5px;
-                background: var(--nav-colour);
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                z-index: 100;
-            }
-
-            nav {
-                position: relative;
-                margin-right: 2rem;
-            }
-
-            #logo {
-                position: relative;
-                left: 1.5rem;
-            }
-
-            header nav a {
-                font-size: 1.15rem;
-                color: white;
-                text-decoration: none;
-                font-weight: 500;
-                margin-right: 2.5rem;
-                /* text-transform: uppercase;*/
-            }
-
-            header nav a span {
-                color: red;
-            }
-
-            header nav a:hover {
-                color: var(--bg-colour);
-            }
-
-            .icon {
-                font-size: 2.3rem;
-                color: white;
-                cursor: pointer;
-                display: none;
-            }
-
-            /*home section*/
-
-        }
-
-    </style>
+    <link rel="stylesheet" href="assets/styleSheets/about.css">
 
 </head>
 <body>
@@ -340,6 +48,8 @@
         <a href="#contact"><span>Contact</span></a>
     </nav>
 </header>
+
+
 <main>
     <!--home section design-->
     <section class="home" id="home">
@@ -366,30 +76,33 @@
     </section>
 
     <!--about section design-->
-    <section class="about" id="about">
+    <section id="about">
 
-        <div class="home-label">
+        <div class="about-lbl">
             <h2>About</h2>
         </div>
 
-        <div class="about-img">
-            <img src="assets/img/about_pic.jpg" alt="">
-        </div>
-
-        <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <p>I am Eranga Hasakalum. I am <br> currently living in Beruwala. Currently <br>I am doing a diploma in
-                software <br> engineering from IJSE - Institute of <br>Software Engineering.</p>
-
-            <div class="btn-cv">
-                <a href="#" id="cv">Download CV</a>
+        <div class="about">
+            <div class="about-img">
+                <img src="assets/img/about_pic.jpg" alt="">
             </div>
 
-        </div>
+            <div class="content">
 
+                <div class="details">
+                    <p>I am Eranga Hasakalum. I am <br> currently living in Beruwala. Currently <br>I am doing a diploma
+                        in
+                        software <br> engineering from IJSE - Institute of <br>Software Engineering.</p>
+                </div>
+
+                <div id="btn-cv">
+                    <a href="#" id="cv">Download CV</a>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <!--      &lt;!&ndash;education section design&ndash;&gt;
+          <!--education section design-->
           <section class="education-area" id="education">
               <div class="edu-area">
                   <div id="main-line"></div>
@@ -487,14 +200,14 @@
               <br><br>
 
               <div>
-                  <img src="assets/img/call.png" width="40" height="40">
+                  <img src="assets/img/call.png" alt="">
                   <h4>Call Me</h4>
                   <a href="tel:+94 766553787">+94 766553787</a>
 
-                  <img src="assets/img/location.png" width="40" height="40">
+                  <img src="assets/img/location.png" alt="">
                   <h4>No:33 Ambepitiya Beruwala.</h4>
 
-                  <img src="assets/img/email.png" width="40" height="40">
+                  <img src="assets/img/email.png" alt="     ">
                   <h4>Email</h4>
                   <a href="#">erangahasakalum6761@gmail.com</a>
               </div>
@@ -508,7 +221,7 @@
 
                   <input type="button" value="Send Massege">
               </div>
-          </section>-->
+          </section>
 
 </main>
 
