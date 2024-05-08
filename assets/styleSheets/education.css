@@ -1,24 +1,164 @@
-/* Styles for Mobile Large (376px to 425px) */
-@media all and (min-width: 376px) and (max-width: 425px) {
 
+.education{
+    padding: 2% 0;
+
+}
+
+.heading{
+    margin-left: 35%;
+    font-size: 50px;
+    color: var(--txt-colour);
+}
+
+.heading i{
+    color: white;
+}
+
+.education .rectangle-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.education .rectangle-container .rectangle {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    border-radius: 0.5rem;
+    box-shadow: 0.2rem 0.5rem 1rem rgb(127, 255, 0);
+    text-align: center;
+    position: relative;
+    margin-top: 2rem;
+    overflow: hidden;
+    transition: 0.3s;
+    background: transparent;
+
+
+}
+
+.content h3{
+    color: var(--txt-colour);
+}
+
+.content h4{
+    color: var(--txt-colour);
+}
+
+.education-image{
+    width: 150px;
+    object-fit: cover;
+    position: relative;
+    height: 100%;
+    margin-left: 5%;
+  /*  box-shadow: 0.2rem 0.5rem 1rem rgb(255, 255, 255);*/
+   /* margin-top: 1%;*/
+}
+
+.content{
+    margin-left: 30%;
+
+}
+
+.content h3{
+    font-size: 25px;
+    font-family: cursive;
 }
 
 /* Styles for Mobile Large (376px to 425px) */
 @media all and (min-width: 376px) and (max-width: 425px) {
+    .rectangle{
+        height: 80px;
+    }
 
+    .content h3{
+        font-size:13px ;
+    }
+
+    .content h4{
+        font-size: 11px;
+    }
+
+    .heading{
+        font-size: 18px;
+        color: var(--txt-colour);
+    }
+
+    .education-image{
+        width: 80px;
+    }
+
+    .rectangle{
+        gap: 0;
+    }
+
+    .education{
+        padding: 3% 0;
+        background-color: blue;
+    }
+
+    .content{
+        margin-left: 15%;
+
+    }
 }
 
 /* Styles for Tablet (426px to 768px) */
 @media all and (min-width: 426px) and (max-width: 768px) {
+    .rectangle{
+        height: 100px;
+    }
+
+    .content h3{
+        font-size:15px ;
+    }
+
+    .content h4{
+        font-size: 13px;
+    }
+
+    .heading{
+        font-size: 20px;
+        color: var(--txt-colour);
+    }
+
+    .education-image{
+        width: 100px;
+    }
+
+    .rectangle{
+        gap: 0;
+    }
+
+    .education{
+        padding: 3% 0;
+    }
+
+    .content{
+        margin-left: 15%;
+
+    }
 
 }
 
 /* Styles for Laptop (769px to 1024px) */
 @media all and (min-width: 769px) and (max-width: 1024px) {
+    .rectangle{
+        height: 120px;
+    }
 
+    .content h3{
+       font-size:18px ;
+    }
+
+    .content h4{
+       font-size: 15px;
+    }
+
+    .heading{
+        font-size: 30px;
+        color: var(--txt-colour);
+    }
 }
 
-/* Styles for Laptop (1025 to 1400) */
-@media all and (min-width: 1025px) and (max-width: 1440px) {
-
-}

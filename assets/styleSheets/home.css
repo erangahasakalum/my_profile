@@ -1,14 +1,16 @@
+
 /*home section*/
 .home{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5rem 9% 3rem;
+    padding: 2rem 9% 3rem;
 }
 
 .home-content{
     color: white;
     line-height: 1;
+
 }
 
 .home-content span {
@@ -97,14 +99,6 @@
     font-size: 2rem;
 }
 
-.about-content{
-    width: 80%;
-    border: 1px solid white;
-}
-
-.about-content p{
-    font-size: 2rem;
-}
 
 /* Styles for Mobile Medium (321px to 375px) */
 @media all and (min-width: 321px) and (max-width: 375px) {
@@ -124,12 +118,52 @@
 
 /* Styles for Tablet (426px to 768px) */
 @media all and (min-width: 426px) and (max-width: 768px) {
+    .home{
+        padding: 4rem 6% 3rem;
+    }
+
+    .home-content h1:nth-child(1) {
+        font-family: cursive;
+        font-size: 3rem;
+    }
+
+    .home-content h1:nth-child(2) {
+        font-size: 2rem;
+    }
+
+    .home-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .home-image img {
+        width: 200px;
+        margin-bottom: 2rem;
+    }
+
+    #hire-me {
+        font-size: 0.7rem;
+    }
+
+    .btn{
+        position: relative;
+        right: 2rem;
+    }
+    .social-icon a {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+
+    }
 
 }
 
 /* Styles for Laptop (769px to 1024px) */
 @media all and (min-width: 769px) and (max-width: 1024px) {
     /*home section*/
+    .home{
+        padding: 3rem 9% 3rem;
+    }
+
     .home-content h1:nth-child(1) {
         font-family: cursive;
         font-size: 4rem;
@@ -153,19 +187,14 @@
     #hire-me {
         font-size: 1rem;
         position: relative;
-        bottom: 4rem;
+        bottom: 5rem;
     }
 
     .social-icon a {
         width: 2.5rem;
         height: 2.5rem;
         font-size: 1.2rem;
-        position: relative;
-        left: 0.8rem;
+
     }
 }
 
-/* Styles for Laptop (1025 to 1400) */
-@media all and (min-width: 1025px) and (max-width: 1440px) {
-
-}

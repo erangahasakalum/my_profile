@@ -25,31 +25,32 @@
     <link rel="stylesheet" href="assets/styleSheets/navBar.css">
     <link rel="stylesheet" href="assets/styleSheets/home.css">
     <link rel="stylesheet" href="assets/styleSheets/about.css">
+    <link rel="stylesheet" href="assets/styleSheets/education.css">
 
 </head>
 <body>
-<!--header design-->
+<!--nav bar-->
 <header>
-    <img id="logo" src="assets/img/logo2.png" alt="">
-
-    <label class="icon">
-        <i class="fa-solid fa-bars" id="menu-icon"></i>
-        <i class="fa-solid fa-x" id="close-icon"></i>
-    </label>
-
     <nav>
-        <a href="#home" class="active">Home</a>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skill</a>
-        <a href="#projects">Project</a>
-        <a href="#assignment">Assignment</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact"><span>Contact</span></a>
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="">Skill</a></li>
+            <li><a href="">Project</a></li>
+            <li><a href="">Assignment</a></li>
+            <li><a href=""><span>Contact</span></a></li>
+        </ul>
     </nav>
+    <div class="logo">
+        <img src="assets/img/logo2.png" alt="logo.png" title="Logo">
+    </div>
+    <div id="burgerbtn">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
 </header>
-
-
 <main>
     <!--home section design-->
     <section class="home" id="home">
@@ -76,165 +77,252 @@
     </section>
 
     <!--about section design-->
-    <section id="about">
-
-        <div class="about-lbl">
-            <h2>About</h2>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./assets/img/about_pic.jpg" alt="">
         </div>
 
-        <div class="about">
-            <div class="about-img">
-                <img src="assets/img/about_pic.jpg" alt="">
-            </div>
+        <div class="about-content">
+            <h2 class="heading"> About <span>Me</span></h2>
+            <p>I am Eranga Hasakalum. I am currently living in Beruwala.
+                I am an Information Technology undergraduate from IJSE.
+                I am very passionate about improving my coding skills & developing applications & websites.
+                Working for myself to improve my skills.
+                Love to build Full-Stack clones. </p>
 
-            <div class="content">
-
-                <div class="details">
-                    <p>I am Eranga Hasakalum. I am <br> currently living in Beruwala. Currently <br>I am doing a diploma
-                        in
-                        software <br> engineering from IJSE - Institute of <br>Software Engineering.</p>
-                </div>
-
-                <div id="btn-cv">
-                    <a href="#" id="cv">Download CV</a>
-                </div>
-            </div>
+            <a class="resume-btn" href="#">Download CV</a>
         </div>
     </section>
 
-          <!--education section design-->
-          <section class="education-area" id="education">
-              <div class="edu-area">
-                  <div id="main-line"></div>
-                  <div class="line" id="line1"></div>
-                  <div class="line" id="line2"></div>
-                  <div class="line" id="line3"></div>
-                  <div class="line" id="line4"></div>
-              </div>
-          </section>
+    <section class="education" id="education">
 
-          <section id="skills">
-              <label>SKILLS</label>
-              <br><br>
-              <div>
-                  <img src="assets/img/mysql.png" height="100" width="100">
-                  <img src="assets/img/html.png" height="100" width="100">
-                  <img src="assets/img/css.png" height="100" width="100">
-                  <img src="assets/img/figma.png" height="100" width="100">
+        <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
 
-                  <br>
-                  <br>
+        <div class="rectangle-container">
 
-                  <img src="assets/img/mysql.png" width="100" height="100">
-                  <img src="assets/img/linux.png" width="100" height="100">
-                  <img src="assets/img/github.png" width="100" height="100">
-              </div>
-          </section>
-          <br>
-          <section>
-              <label>CERTIFICATE</label>
-              <br><br>
+            <div class="rectangle">
+                <div class="education-image">
+                    <img src="./assets/img/padagoda.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>K/Padagoda Maha Vidyalaya</h3>
+                    <h4>2007-2017 | Complete</h4>
+                </div>
+            </div>
 
-              <div>
-                  <img src="assets/img/certificate.jpg" width="200" height="200">
-              </div>
-          </section>
-          <br>
-          <section>
-              <label>PROJECTS</label>
-              <br><br>
+            <div class="rectangle">
+                <div class="education-image">
+                    <img src="./assets/img/ds.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>D/S Senanayaka National College</h3>
+                    <h4>2017-2019 | Complete</h4>
+                </div>
+            </div>
 
-              <div>
-                  <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
-                  <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
-                  <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
-                  <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
-                  <br>
-                  <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
-                  <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
-                  <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
-                  <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
-                  <br>
+            <div class="rectangle">
+                <div class="education-image">
+                    <img src="./assets/img/aquinas.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Aquainas College </h3>
+                    <h4>2020-2024 | Complete</h4>
+                </div>
+            </div>
 
-                  <input type="button" value="View More">
-              </div>
-          </section>
-          <br>
-          <section>
-              <label>ASSIGNMENTS</label>
-              <br><br>
-              <div>
-                  <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
-                  <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
-                  <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
-                  <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
+            <div class="rectangle">
+                <div class="education-image">
+                    <img src="./assets/img/ijse2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Institute of Software Engineering</h3>
+                    <h4>2023 | Pursuing</h4>
+                </div>
+            </div>
 
-                  <br>
-                  <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
-                  <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
-                  <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
-                  <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
-                  <br>
 
-                  <input type="button" value="View More">
-              </div>
-          </section>
-          <br>
-          <section>
-              <label>GALLERY</label>
-              <br>
-              <br>
+        </div>
+    </section>
 
-              <div>
-                  <a href="#"><img src="assets/img/g1.jpg" height="100" width="100"></a>
-                  <a href="#"><img src="assets/img/g2.jpg" height="100" width="100"></a>
-                  <a href="#"><img src="assets/img/g3.jpg" height="100" width="100"></a>
-                  <a href="#"><img src="assets/img/g4.jpg" height="100" width="100"></a>
-                  <br>
-                  <input type="button" value="View More">
-              </DIV>
-          </section>
-          <br>
-          <section>
-              <label>CONTACT</label>
-              <br><br>
+<!--    <section class="skills" id="skill">
+        <label>SKILLS</label>
+        <br><br>
+        <div>
+            <img src="assets/img/java.png" height="100" width="100">
+            <img src="assets/img/html.png" height="100" width="100">
+            <i class="fa-brands fa-css3-alt" style="color: #7FFF00"></i>
+            <img src="assets/img/figma.png" height="100" width="100">
 
-              <div>
-                  <img src="assets/img/call.png" alt="">
-                  <h4>Call Me</h4>
-                  <a href="tel:+94 766553787">+94 766553787</a>
+            <br>
+            <br>
 
-                  <img src="assets/img/location.png" alt="">
-                  <h4>No:33 Ambepitiya Beruwala.</h4>
+            <img src="assets/img/mysql.png" width="100" height="100">
+            <img src="assets/img/linux.png" width="100" height="100">
+            <img src="assets/img/github.png" width="100" height="100">
+        </div>
+    </section>
+    <br>-->
+    <section id="certificate" class="certificate-area">
+        <label >CERTIFICATE</label>
 
-                  <img src="assets/img/email.png" alt="     ">
-                  <h4>Email</h4>
-                  <a href="#">erangahasakalum6761@gmail.com</a>
-              </div>
-              <br>
-              <div>
-                  <input type="text" placeholder="Your Name">
-                  <input type="text" placeholder="Your Email">
-                  <br><br>
-                  <textarea>Your Massege</textarea>
-                  <br>
+        <div>
+            <img src="assets/img/certificate.jpg" width="200" height="200">
+        </div>
+        <br><br>
 
-                  <input type="button" value="Send Massege">
-              </div>
-          </section>
+        <div>
+            <img src="assets/img/certificate.jpg" width="200" height="200">
+        </div>
+    </section>
+
+
+<!--
+ </section>
+   <label>PROJECTS</label>
+        <br><br>
+
+        <div>
+            <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
+            <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
+            <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
+            <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
+            <br>
+            <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
+            <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
+            <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
+            <a href="#"><img src="assets/img/projects.png" height="100" width="100"></a>
+            <br>
+
+            <input type="button" value="View More">
+        </div>
+    </section>
+    <br>
+    <section>
+        <label>ASSIGNMENTS</label>
+        <br><br>
+        <div>
+            <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
+            <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
+            <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
+            <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
+
+            <br>
+            <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
+            <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
+            <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
+            <a href="#"><img src="assets/img/assignment.png" height="100" width="100"></a>
+            <br>
+
+            <input type="button" value="View More">
+        </div>
+    </section>
+    <br>
+    <section>
+        <label>GALLERY</label>
+        <br>
+        <br>
+
+        <div>
+            <a href="#"><img src="assets/img/g1.jpg" height="100" width="100"></a>
+            <a href="#"><img src="assets/img/g2.jpg" height="100" width="100"></a>
+            <a href="#"><img src="assets/img/g3.jpg" height="100" width="100"></a>
+            <a href="#"><img src="assets/img/g4.jpg" height="100" width="100"></a>
+            <br>
+            <input type="button" value="View More">
+        </DIV>
+    </section>
+    <br>
+
+    <section class="contact" id="contact">
+
+        <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+        <div class="container">
+            <div class="content">
+                <div class="image-box">
+                    <img draggable="false" src="./assets/images/contact1.png" alt="">
+                </div>
+                <form id="contact-form">
+
+                    <div class="form-group">
+                        <div class="field">
+                            <input type="text" name="name" placeholder="Name" required>
+                            <i class='fas fa-user'></i>
+                        </div>
+                        <div class="field">
+                            <input type="text" name="email" placeholder="Email" required>
+                            <i class='fas fa-envelope'></i>
+                        </div>
+                        <div class="field">
+                            <input type="text" name="phone" placeholder="Phone">
+                            <i class='fas fa-phone-alt'></i>
+                        </div>
+                        <div class="message">
+                            <textarea placeholder="Message" name="message" required></textarea>
+                            <i class="fas fa-comment-dots"></i>
+                        </div>
+                    </div>
+                    <div class="button-area">
+                        <button type="submit">
+                            Submit <i class="fa fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>-->
 
 </main>
 
-<!--<footer>
-    <a href="#"><img src="assets/img/linkind.png" height="24" width="24"></a>
-    <a href="#"><img src="assets/img/facebook.png" height="24" width="24"></a>
-    <a href="#"><img src="assets/img/git.png" height="24" width="24"></a>
-    <a href="#"><img src="assets/img/whatsapp.png" height="24" width="24"></a>
+<footer>
+    <section class="footer">
 
-    <p>Copyright © ErangaHasakalum</p>
-</footer>-->
+        <div class="box-container">
 
-<script src="assets/font_awesome/fontawesome-free-6.5.1-web/js/all.min.js"></script>
+            <div class="box">
+                <h3>Jigar's Portfolio</h3>
+                <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep
+                    Rising 🚀. Connect with me over live chat!</p>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+                <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+                <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+                <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+                <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+                <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <p><i class="fas fa-phone"></i>+91 XXX-XXX-XXXX</p>
+                <p><i class="fas fa-envelope"></i>jigarsable21@gmail.com</p>
+                <p><i class="fas fa-map-marked-alt"></i>Pune, India-412206</p>
+                <div class="share">
+
+                    <a href="https://www.linkedin.com/in/jigar-sable" class="fab fa-linkedin" aria-label="LinkedIn"
+                       target="_blank"></a>
+                    <a href="https://github.com/jigar-sable" class="fab fa-github" aria-label="GitHub"
+                       target="_blank"></a>
+                    <a href="mailto:jigarsable21@gmail.com" class="fas fa-envelope" aria-label="Mail"
+                       target="_blank"></a>
+                    <a href="https://twitter.com/jigar_sable" class="fab fa-twitter" aria-label="Twitter"
+                       target="_blank"></a>
+                    <a href="https://t.me/lifecode5" class="fab fa-telegram-plane" aria-label="Telegram"
+                       target="_blank"></a>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a
+                href="https://www.linkedin.com/in/jigar-sable"> jigar sable</a></h1>
+
+    </section>
+</footer>
+
+<script src="assets/lib/jquery-3.7.1.min.js"></script>
+<script src="assets/js/nav.js"></script>
 </body>
 
 </html>
