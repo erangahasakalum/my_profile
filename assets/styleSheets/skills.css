@@ -1,0 +1,57 @@
+.skills {
+    padding: 15px 9%;
+}
+
+.skills.heading {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.skills > .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+}
+
+.skills > .container > .box {
+    box-shadow: 0 5px 10px rgb(127, 255, 0);
+    border-radius: 5px;
+    background: transparent;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.skills > .container > .box > img {
+    height: 120px;
+}
+
+.skills > .container > .box > h3 {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.skills > .container > .box:hover {
+    box-shadow: 0 10px 15px rgb(255, 255, 255);
+    transform: scale(1.03);
+}
+
+/* Styles for Mobile Medium (321px to 375px) */
+@media all and (min-width: 321px) and (max-width: 375px) {
+
+
+}
+
+
+/* Styles for Mobile Large (376px to 425px) */
+@media all and (min-width: 376px) and (max-width: 425px) {
+    .skills > .container > .box > h3 {
+        color: #ffffff;
+        font-size: 16px;
+    }
+
+    .skills.heading {
+        font-size: 25px;
+    }
+
+}
