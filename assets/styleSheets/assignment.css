@@ -1,3 +1,61 @@
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    left: 9rem;
+
+}
+
+.card-image #assignment-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.slide-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: white;
+}
+
+.slide-content {
+    margin: 0 40px;
+}
+
+#btn-assignment {
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 8px 16px;
+    background-color: #7FFF00;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #7FFF00;
+    left: 0;
+    top: 0;
+    border-radius:25px 25px 0 25px;
+}
+
+.image-content {
+    position: relative;
+    row-gap: 5px;
+}
+
 /* Styles for Mobile Large (376px to 425px) */
 @media all and (min-width: 376px) and (max-width: 425px) {
 
