@@ -21,6 +21,8 @@
           integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/styleSheets/css.css">
     <link rel="stylesheet" href="assets/styleSheets/navBar.css">
     <link rel="stylesheet" href="assets/styleSheets/home.css">
@@ -82,7 +84,7 @@
     </section>
 
     <!--about section design-->
-    <section class="about" id="about">
+    <section class="about" id="about" data-aos="fade-up">
         <div class="about-img">
             <img src="./assets/img/about_pic.jpg" alt="">
         </div>
@@ -268,7 +270,7 @@
 
     </section>
     <br>
-    <section>
+  <!--  <section>
         <label>GALLERY</label>
         <br>
         <br>
@@ -281,13 +283,13 @@
             <br>
             <input type="button" value="View More">
         </DIV>
-    </section>
+    </section>-->
     <br>
 
     <section class="contact" id="contact">
 
-        <h2 class="heading"><i class="fas fa-headset"></i> Contact <span>Touch</span></h2>
-
+<!--        <h2 class="heading"><i class="fas fa-headset"></i> Contact <span>Touch</span></h2>-->
+`
         <div class="container">
             <div class="content">
                 <div class="image-box">
@@ -324,7 +326,7 @@
 
 </main>
 
-<footer>
+<!--<footer>
     <section class="footer">
 
         <div class="box-container">
@@ -370,10 +372,14 @@
                 href="https://www.linkedin.com/in/jigar-sable"> jigar sable</a></h1>
 
     </section>
-</footer>
+</footer>-->
 
 <script src="assets/lib/jquery-3.7.1.min.js"></script>
 <script src="assets/js/nav.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 
 </html>
