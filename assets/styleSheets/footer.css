@@ -125,15 +125,33 @@ footer .wave {
 
 /* Styles for Tablet (426px to 768px) */
 @media all and (min-width: 426px) and (max-width: 768px) {
+    footer p {
+        font-size: 0.9em;
+    }
 
+    footer .footer-icon li a {
+        font-size: 1.3em;
+    }
+
+    footer .footer-menu li a {
+        font-size: 0.7em;
+
+    }
 }
 
 /* Styles for Laptop (769px to 1024px) */
 @media all and (min-width: 769px) and (max-width: 1024px) {
+    footer p {
+        font-size: 1em;
+    }
 
-}
+    footer .footer-icon li a {
+        font-size: 1.5em;
+    }
 
-/* Styles for Laptop (1025 to 1400) */
-@media all and (min-width: 1025px) and (max-width: 1440px) {
+    footer .footer-menu li a {
+        font-size: 1em;
+
+    }
 
 }
