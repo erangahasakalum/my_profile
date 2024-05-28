@@ -7,13 +7,14 @@
 }
 
 .home-content {
-    color: white;
+    color: black;
     line-height: 1;
 
 }
 
 .home-content span {
     color: var(--main-colour);
+
 }
 
 .social-icon a {
@@ -76,7 +77,7 @@
 .home-image img {
     width: 400px;
     border-radius: 50%;
-    box-shadow: 0 0 25px 0 var(--main-colour);
+    box-shadow: 16px 14px 20px black;
     cursor: pointer;
     transition: 0.4s ease-in-out;
 }
@@ -101,67 +102,133 @@
 
 /* Styles for Mobile Medium (321px to 375px) */
 @media all and (min-width: 321px) and (max-width: 375px) {
-    /*home section*/
-
-}
-
-/* Styles for Mobile Large (376px to 425px) */
-@media all and (min-width: 376px) and (max-width: 425px) {
-
-}
-
-/* Styles for Mobile Large (376px to 425px) */
-@media all and (min-width: 376px) and (max-width: 425px) {
-
-}
-
-/* Styles for Tablet (426px to 768px) */
-@media all and (min-width: 426px) and (max-width: 768px) {
-    .home {
-        padding: 4rem 6% 3rem;
+    .home{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5rem 9% 0 9% ;
     }
-
     .home-content h1:nth-child(1) {
         font-family: cursive;
-        font-size: 3rem;
+        font-size: 4rem;
+
+    }
+
+    .home-content{
+        width: 100%;
+        height: 70vh;
     }
 
     .home-content h1:nth-child(2) {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .home-content h3 {
-        font-size: 1.2rem;
+        font-size: 100%;
     }
-
-    .home-image img {
-        width: 200px;
-        margin-bottom: 2rem;
+    .social-icon{
+        margin-top: 2rem;
     }
 
     #hire-me {
-        font-size: 0.7rem;
-    }
-
-    .btn {
-        position: relative;
-        right: 2rem;
+        padding: 0.3rem 0.5rem;
+        border-radius: 2rem;
+        font-size: 0.8rem;
+        font-weight: 600;
     }
 
     .social-icon a {
         width: 2rem;
         height: 2rem;
         font-size: 1rem;
+        margin: 2rem 0.5rem 2rem 0;
 
     }
 
+}
+
+/* Styles for Mobile Large (376px to 425px) */
+@media all and (min-width: 376px) and (max-width: 425px) {
+    .home{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5rem 9% 0 9% ;
+
+    }
+    .home-content h1:nth-child(1) {
+        font-family: cursive;
+        font-size: 4rem;
+
+    }
+
+    .home-content{
+        width: 100%;
+        height: 70vh;
+    }
+
+    .home-content h1:nth-child(2) {
+        font-size: 2.5rem;
+    }
+
+    .home-content h3 {
+        font-size: 100%;
+    }
+    .social-icon{
+        margin-top: 2rem;
+    }
+
+    #hire-me {
+        padding: 0.3rem 0.5rem;
+        border-radius: 2rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+    .social-icon a {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+        margin: 2rem 0.5rem 2rem 0;
+
+    }
+
+}
+
+/* Styles for Tablet (426px to 768px) */
+@media all and (min-width: 426px) and (max-width: 768px) {
+    .home{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5rem 9% 0 9%;
+
+    }
+    .home-content h1:nth-child(1) {
+        font-family: cursive;
+        font-size: 5rem;
+
+    }
+
+    .home-content{
+        width: 100%;
+        height: 90vh;
+    }
+
+    .home-content h1:nth-child(2) {
+        font-size: 3rem;
+    }
+
+    .home-content h3 {
+        font-size: 100%;
+    }
+    .social-icon{
+        margin-top: 2rem;
+    }
 }
 
 /* Styles for Laptop (769px to 1024px) */
 @media all and (min-width: 769px) and (max-width: 1024px) {
     /*home section*/
     .home {
-        padding: 3rem 9% 3rem;
+        padding: 3rem 9% 0 9%;
     }
 
     .home-content h1:nth-child(1) {

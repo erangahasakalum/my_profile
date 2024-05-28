@@ -1,6 +1,6 @@
 footer {
     display: flex;
-    background-color: cornflowerblue;
+    background:linear-gradient(45deg,#E9F1FA,#00ABE4,#FFFFFF);
     position: relative;
     min-height: 100px;
     padding: 20px 50px;
@@ -115,12 +115,16 @@ footer .wave {
 
 /* Styles for Mobile Large (376px to 425px) */
 @media all and (min-width: 376px) and (max-width: 425px) {
-
+    .footer-menu{
+        display: none;
+    }
 }
 
 /* Styles for Mobile Large (376px to 425px) */
 @media all and (min-width: 376px) and (max-width: 425px) {
-
+    .footer-menu{
+        display: none;
+    }
 }
 
 /* Styles for Tablet (426px to 768px) */

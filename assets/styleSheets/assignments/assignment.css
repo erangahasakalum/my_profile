@@ -1,0 +1,62 @@
+section>div{
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+}
+
+.card{
+    width: 183px;
+    aspect-ratio: 1/1;
+    margin: 28px auto;
+    border: 4px solid #003973;
+    border-radius: 10px;
+
+    animation-name: card-animation;
+    animation-duration: 2s;
+    animation-iteration-count: initial;
+}
+
+.card-detail{
+    text-align: center;
+    position: relative;
+    top: 40px;
+    color: black;
+    font-family: Calibri, serif;
+}
+
+.assignmentParent a:link{
+    text-decoration: none;
+}
+
+.card:hover{
+    -webkit-text-fill-color: #f9f9f9;
+    background: rgb(3, 108, 255);
+    background: linear-gradient(-90deg, rgba(3, 108, 255) 0%, rgba(0, 0, 0) 100%);
+    transform: translateY(-20px);
+    transition: 1s;
+}
+
+.card-detail a{
+    padding: 0.5rem 1rem;
+    position: relative;
+    top: 15px;
+    background: var(--main-colour);
+    border-radius: 2rem;
+    font-size: 1rem;
+    color: black;
+    border: 1px solid var(--main-colour);
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@keyframes card-animation {
+
+    0%{
+        transform: rotate3d(0,0,0,0deg);
+    }
+    100%{
+        transform: rotate3d(0,20,0,360deg);
+    }
+}

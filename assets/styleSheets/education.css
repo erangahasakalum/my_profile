@@ -66,6 +66,43 @@
     font-family: cursive;
 }
 
+/* Styles for Mobile Medium (321px to 375px) */
+@media all and (min-width: 321px) and (max-width: 375px) {
+    .rectangle{
+        height: 80px;
+    }
+
+    .content h3{
+        font-size:13px ;
+    }
+
+    .content h4{
+        font-size: 11px;
+    }
+
+    .heading{
+        font-size: 25px;
+        color: var(--txt-colour);
+    }
+
+    .education-image{
+        width: 80px;
+    }
+
+    .rectangle{
+        gap: 0;
+    }
+
+    .education{
+        padding: 3% 0;
+    }
+
+    .content{
+        margin-left: 15%;
+
+    }
+}
+
 /* Styles for Mobile Large (376px to 425px) */
 @media all and (min-width: 376px) and (max-width: 425px) {
     .rectangle{
@@ -81,7 +118,7 @@
     }
 
     .heading{
-        font-size: 18px;
+        font-size: 25px;
         color: var(--txt-colour);
     }
 
@@ -137,6 +174,9 @@
     .content{
         margin-left: 15%;
 
+    }
+    .education h1{
+        text-align: center;
     }
 
 }

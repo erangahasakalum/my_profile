@@ -14,14 +14,14 @@
 
 .about-content h2 {
     text-align: left;
-    color: white;
+    color: var(--txt-colour);
     font-size: 45px;
     margin: 0;
     font-family: "cursive";
 }
 
 .about-content p {
-    color: white;
+    color: var(--txt-colour);
     font-size: 22px;
     margin: 1em 0 1em;
     font-family: sans-serif;
@@ -31,7 +31,7 @@
 .resume-btn {
     padding: 15px 28px;
     background-color: #7FFF00;
-    color: white;
+    color: var(--txt-colour);
     border: 2px solid transparent;
     border-radius: 8px;
     font-size: 18px;
@@ -44,6 +44,35 @@
     top: 2rem;
 }
 
+/* Styles for Mobile Medium (321px to 375px) */
+@media all and (min-width: 321px) and (max-width: 375px) {
+    .about {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        padding: 13% 5%;
+    }
+
+    .about-content h2 {
+        font-size: 25px;
+    }
+
+    .about-content p {
+        font-size: 14px;
+    }
+
+    .about-img img {
+        width: 60vw;
+    }
+
+    .resume-btn {
+        font-size: 10px;
+        padding: 6px 8px;
+
+    }
+
+}
 
 /* Styles for Mobile Large (376px to 425px) */
 @media all and (min-width: 376px) and (max-width: 425px) {

@@ -1,0 +1,159 @@
+.assignment-area{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 100px 50px;
+}
+
+.assignment-area .card{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+.assignment-area .card:hover {
+    height: 400px;
+}
+
+.assignment-area .card .imgBx{
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background-color: #181616;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.assignment-area .card:hover .imgBx{
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.15 );
+}
+
+
+.assignment-area .card .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.assignment-area .card .content{
+    position: absolute;
+    width: 100%;
+    padding: 0 30px;
+    /*text-align:center;*/
+    top: 252px;
+    height: 60px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.assignment-area .card:hover .content{
+    height: 250px;
+    top: 130px;
+}
+
+.assignment-area .card:hover .content h2{
+    font-family: "Arial Black", serif;
+}
+
+.assignment-area .card:hover .content p{
+    font-size: 18px;
+    font-family: cursive;
+}
+.assignment-area .card:hover .content a{
+    padding: 0.5rem 1rem;
+    position: relative;
+    top: 15px;
+    background: var(--main-colour);
+    border-radius: 2rem;
+    font-size: 1rem;
+    color: black;
+    border: 1px solid var(--main-colour);
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.assignment-heading{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+}
+/* Styles for Mobile Medium (321px to 375px) */
+@media all and (min-width: 321px) and (max-width: 375px) {
+    .assignment-heading{
+        font-size: 25px;
+    }
+
+    .assignment-area{
+        padding: 30px 50px;
+    }
+
+    .assignment-area .card .imgBx{
+        width: 200px;
+    }
+
+    .assignment-area .card:hover {
+        height: 350px;
+    }
+
+    .assignment-area .card:hover .content a{
+        padding: 0.3rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
+
+    .content h2{
+        font-size: 25px;
+    }
+}
+
+/* Styles for Mobile Large (376px to 425px) */
+@media all and (min-width: 376px) and (max-width: 425px) {
+    .assignment-heading{
+        font-size: 25px;
+    }
+
+    .assignment-area{
+        padding: 30px 50px;
+    }
+
+    .assignment-area .card .imgBx{
+        width: 250px;
+    }
+
+    .assignment-area .card:hover {
+        height: 350px;
+    }
+
+    .assignment-area .card:hover .content a{
+        padding: 0.3rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
+
+    .content h2{
+        font-size: 25px;
+    }
+
+}
+

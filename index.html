@@ -26,12 +26,12 @@
     <link rel="stylesheet" href="assets/styleSheets/home.css">
     <link rel="stylesheet" href="assets/styleSheets/about.css">
     <link rel="stylesheet" href="assets/styleSheets/education.css">
-    <link rel="stylesheet" href="assets/styleSheets/certificate.css">
     <link rel="stylesheet" href="assets/styleSheets/skills.css">
+    <link rel="stylesheet" href="assets/styleSheets/assignments.css">
     <link rel="stylesheet" href="assets/styleSheets/projects.css">
-    <link rel="stylesheet" href="assets/styleSheets/assignment.css">
     <link rel="stylesheet" href="assets/styleSheets/contact.css">
     <link rel="stylesheet" href="assets/styleSheets/footer.css">
+    <link rel="stylesheet" href="assets/styleSheets/gallery.css">
 
 
 </head>
@@ -67,15 +67,15 @@
             <h3>Full stack Software Developer<span>.</span></h3>
 
             <div class="social-icon">
-                <a href="http://www.linkedin.com/in/eranga-hasakalum-silva-a63b11278"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.facebook.com/profile.php?id=100081889696796&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                <a href="http://www.linkedin.com/in/eranga-hasakalum-silva-a63b11278"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100081889696796&mibextid=ZbWKwL"><i
+                        class="fa-brands fa-facebook"></i></a>
                 <a href="https://www.instagram.com/erangahasakalum_silva/"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://github.com/erangahasakalum"><i class="fa-brands fa-github"></i></a>
             </div>
 
-            <div class="btn">
-                <button type="button" id="hire-me">Hire Me</button>
-            </div>
+            <a type="button" id="hire-me">Hire Me</a>
 
         </div>
         <div class="home-image">
@@ -90,7 +90,7 @@
         </div>
 
         <div class="about-content">
-            <h2 class="heading"> About <span>Me</span></h2>
+            <h2 class="heading" data-aos="zoom-in"> About <span>Me</span></h2>
             <p>I am Eranga Hasakalum. I am currently living in Beruwala.
                 I am an Information Technology undergraduate from IJSE.
                 I am very passionate about improving my coding skills & developing applications & websites.
@@ -103,11 +103,11 @@
     <!--education section design-->
     <section class="education" id="education">
 
-        <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+        <h1 id="e-head" data-aos="zoom-in" class="heading"><i class="fas fa-graduation-cap"> </i> My <span>Education</span></h1>
 
         <div class="rectangle-container">
 
-            <div class="rectangle">
+            <div class="rectangle" data-aos="fade-right">
                 <div class="education-image">
                     <img src="./assets/img/padagoda.png" alt="">
                 </div>
@@ -117,7 +117,7 @@
                 </div>
             </div>
 
-            <div class="rectangle">
+            <div class="rectangle" data-aos="fade-left">
                 <div class="education-image">
                     <img src="./assets/img/ds.png" alt="">
                 </div>
@@ -127,7 +127,7 @@
                 </div>
             </div>
 
-            <div class="rectangle">
+            <div class="rectangle" data-aos="fade-right">
                 <div class="education-image">
                     <img src="./assets/img/aquinas.png" alt="">
                 </div>
@@ -152,7 +152,7 @@
     </section>
     <!--skill section design-->
     <section class="skills" id="skill">
-        <h1 class="heading">Our Services</h1>
+        <h1 class="heading" data-aos="zoom-in">Skills</h1>
 
         <div class="container">
             <div class="box">
@@ -199,15 +199,59 @@
 
 
     <!--    project area-->
-    <section id="project" class="project">
-        <h2 class="p-heading">Projects</h2>
-        <div class="project-area">
+    <section id="projects" class="project-area" >
+        <h2 class="project-head">Projects</h2>
+
+        <div class="project-container">
+            <div class="card-container">
+                <div class="project-content">
+                    <img src="assets/img/projects.png" alt="">
+
+                    <div class="content-data">
+                        <h2>First sem final</h2>
+                        <span>Lorem ipsum dolor sit amet.</span>
+                        <a href="#" class="p-btn"><i class="fa-solid fa-code" ></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="project-content">
+                    <img src="assets/img/projects.png" alt="">
+
+                    <div class="content-data">
+                        <h2>First sem final</h2>
+                        <span>Lorem ipsum dolor sit amet.</span>
+                        <a href="#" class="p-btn"><i class="fa-solid fa-code" ></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div class="project-content">
+                    <img src="assets/img/projects.png" alt="">
+
+                    <div class="content-data">
+                        <h2>First sem final</h2>
+                        <span>Lorem ipsum dolor sit amet.</span>
+                        <a href="#" class="p-btn"><i class="fa-solid fa-code" ></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--    assignment area-->
+    <section id="assignment" class="assignment">
+        <h2 class="assignment-heading" data-aos="zoom-in">Assignment</h2>
+        <div class="assignment-area">
             <div class="card">
                 <div class="imgBx">
-                    <img src="assets/img/projects.png" alt="">
+                    <img src="assets/img/assignment.png" alt="">
                 </div>
                 <div class="content">
-                    <h2>Final Project</h2>
+                    <h2>Assignment 01</h2>
                     <p>Lorem ipsum dolor sit amet</p>
                     <a href="#"><i class="fa-solid fa-code"></i></a>
                     <a href="#"><i class="fa-solid fa-eye"></i></a>
@@ -216,10 +260,10 @@
 
             <div class="card">
                 <div class="imgBx">
-                    <img src="assets/img/projects.png" alt="">
+                    <img src="assets/img/assignment.png" alt="">
                 </div>
                 <div class="content">
-                    <h2>Final Project</h2>
+                    <h2>Assignment 02</h2>
                     <p>Lorem ipsum dolor sit amet</p>
                     <a href="#"><i class="fa-solid fa-code"></i></a>
                     <a href="#"><i class="fa-solid fa-eye"></i></a>
@@ -228,10 +272,121 @@
 
             <div class="card">
                 <div class="imgBx">
-                    <img src="assets/img/projects.png" alt="">
+                    <img src="assets/img/assignment.png" alt="">
                 </div>
                 <div class="content">
-                    <h2>Final Project</h2>
+                    <h2>Assignment 03</h2>
+                    <p>Lorem ipsum dolor sit amet?</p>
+                    <a href="https://github.com/erangahasakalum/web_Assignment3.git"><i
+                            class="fa-solid fa-code"></i></a>
+                    <a href="assignments/assignment3.html"><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="imgBx">
+                    <img src="assets/img/assignment.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Assignment 04</h2>
+                    <p>Lorem ipsum dolor sit amet?</p>
+                    <a href="https://github.com/erangahasakalum/web_assignment_4.git"><i
+                            class="fa-solid fa-code"></i></a>
+                    <a href="assignments/assignment4.html"><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="imgBx">
+                    <img src="assets/img/assignment.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Assignment 05</h2>
+                    <p>Lorem ipsum dolor sit amet?</p>
+                    <a href="#"><i class="fa-solid fa-code"></i></a>
+                    <a href="#"><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="imgBx">
+                    <img src="assets/img/assignment.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Assignment 06</h2>
+                    <p>Lorem ipsum dolor sit amet?</p>
+                    <a href="#"><i class="fa-solid fa-code"></i></a>
+                    <a href="#"><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="imgBx">
+                    <img src="assets/img/assignment.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Assignment 07</h2>
+                    <p>Lorem ipsum dolor sit amet?</p>
+                    <a href="#"><i class="fa-solid fa-code"></i></a>
+                    <a href="#"><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="imgBx">
+                    <img src="assets/img/assignment.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Assignment 08</h2>
+                    <p>Lorem ipsum dolor sit amet?</p>
+                    <a href="https://github.com/erangahasakalum/assignment8.git"><i class="fa-solid fa-code"></i></a>
+                    <a href="assignments/assignment8.html"><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="imgBx">
+                    <img src="assets/img/assignment.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Assignment 09</h2>
+                    <p>Lorem ipsum dolor sit amet?</p>
+                    <a href="https://github.com/erangahasakalum/assignment9.git"><i class="fa-solid fa-code"></i></a>
+                    <a href="#"><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="imgBx">
+                    <img src="assets/img/assignment.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Assignment 10</h2>
+                    <p>Lorem ipsum dolor sit amet?</p>
+                    <a href="#"><i class="fa-solid fa-code"></i></a>
+                    <a href="#"><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="imgBx">
+                    <img src="assets/img/assignment.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Assignment 11</h2>
+                    <p>Lorem ipsum dolor sit amet?</p>
+                    <a href="#"><i class="fa-solid fa-code"></i></a>
+                    <a href="#"><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="imgBx">
+                    <img src="assets/img/assignment.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Assignment 12</h2>
                     <p>Lorem ipsum dolor sit amet?</p>
                     <a href="#"><i class="fa-solid fa-code"></i></a>
                     <a href="#"><i class="fa-solid fa-eye"></i></a>
@@ -240,167 +395,36 @@
         </div>
     </section>
 
-    <!--    assignment  area-->
-    <section id="assignment">
-        <h2 class="assignment-head">Assignments</h2>
-
-        <div class="assignment-area">
-            <div class="assignment-card">
-                <div class="assignment-content">
-                    <h2>01</h2>
-                    <h1>Assignment 01</h1>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="#"><i class="fa-solid fa-code"></i></a>
-                    <a href="#"><i class="fa-solid fa-eye"></i></a>
-                </div>
-            </div>
-
-            <div class="assignment-card">
-                <div class="assignment-content">
-                    <h2>02</h2>
-                    <h1>Assignment 01</h1>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="#"><i class="fa-solid fa-code"></i></a>
-                    <a href="#"><i class="fa-solid fa-eye"></i></a>
-                </div>
-            </div>
-
-            <div class="assignment-card">
-                <div class="assignment-content">
-                    <h2>03</h2>
-                    <h1>Assignment 01</h1>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="#"><i class="fa-solid fa-code"></i></a>
-                    <a href="#"><i class="fa-solid fa-eye"></i></a>
-                </div>
-            </div>
-
-            <div class="assignment-card">
-                <div class="assignment-content">
-                    <h2>04</h2>
-                    <h1>Assignment 01</h1>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="#"><i class="fa-solid fa-code"></i></a>
-                    <a href="#"><i class="fa-solid fa-eye"></i></a>
-                </div>
-            </div>
-
-            <div class="assignment-card">
-                <div class="assignment-content">
-                    <h2>05</h2>
-                    <h1>Assignment 01</h1>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="#"><i class="fa-solid fa-code"></i></a>
-                    <a href="#"><i class="fa-solid fa-eye"></i></a>
-                </div>
-            </div>
-
-            <div class="assignment-card">
-                <div class="assignment-content">
-                    <h2>06</h2>
-                    <h1>Assignment 01</h1>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="#"><i class="fa-solid fa-code"></i></a>
-                    <a href="#"><i class="fa-solid fa-eye"></i></a>
-                </div>
-            </div>
-
-            <div class="assignment-card">
-                <div class="assignment-content">
-                    <h2>07</h2>
-                    <h1>Assignment 01</h1>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="#"><i class="fa-solid fa-code"></i></a>
-                    <a href="#"><i class="fa-solid fa-eye"></i></a>
-                </div>
-            </div>>
-
-            <div class="assignment-card">
-                <div class="assignment-content">
-                    <h2>08</h2>
-                    <h1>Assignment 01</h1>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="#"><i class="fa-solid fa-code"></i></a>
-                    <a href="#"><i class="fa-solid fa-eye"></i></a>
-                </div>
-            </div>
-            <div class="assignment-card">
-                <div class="assignment-content">
-                    <h2>09</h2>
-                    <h1>Assignment 01</h1>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="#"><i class="fa-solid fa-code"></i></a>
-                    <a href="#"><i class="fa-solid fa-eye"></i></a>
-                </div>
-            </div>
-
-            <div class="assignment-card">
-                <div class="assignment-content">
-                    <h2>10</h2>
-                    <h1>Assignment 01</h1>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="#"><i class="fa-solid fa-code"></i></a>
-                    <a href="#"><i class="fa-solid fa-eye"></i></a>
-                </div>
-            </div>
-            <div class="assignment-card">
-                <div class="assignment-content">
-                    <h2>11</h2>
-                    <h1>Assignment 01</h1>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="#"><i class="fa-solid fa-code"></i></a>
-                    <a href="#"><i class="fa-solid fa-eye"></i></a>
-                </div>
-            </div>
-
-            <div class="assignment-card">
-                <div class="assignment-content">
-                    <h2>12</h2>
-                    <h1>Assignment 01</h1>
-                    <p>Lorem ipsum dolor sit amet.</p>
-                    <a href="#"><i class="fa-solid fa-code"></i></a>
-                    <a href="#"><i class="fa-solid fa-eye"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    gallery area
     <section class="gallery-area">
-        <label>GALLERY</label>
+        <h2 class="gallery-head">Gallery</h2>
 
-        <div>
-            <a href="#"><img src="assets/img/g1.jpg" height="100" width="100"></a>
-            <a href="#"><img src="assets/img/g2.jpg" height="100" width="100"></a>
-            <a href="#"><img src="assets/img/g3.jpg" height="100" width="100"></a>
-            <a href="#"><img src="assets/img/g4.jpg" height="100" width="100"></a>
-            <br>
-            <input type="button" value="View More">
-        </DIV>
     </section>
 
     <!--    contact section-->
     <section class="contact-area" id="contact">
+        <h2 data-aos="zoom-in">Contact Me</h2>
         <div class="contact-container">
-            <h2>Contact Me</h2>
             <div class="contact-wrapper">
                 <div class="contact-form">
                     <h3>Send a message</h3>
-                    <form>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="cd12fdab-85d1-4e9d-8093-d61acee284b3">
                         <div class="form-group">
                             <label>
-                                <input type="text" name="name" placeholder="Your Name">
+                                <input id="name" type="text" name="name" placeholder="Your Name">
                             </label>
                         </div>
 
                         <div class="form-group">
                             <label>
-                                <input type="email" name="email" placeholder="Your Email">
+                                <input id="email" type="email" name="email" placeholder="Your Email">
                             </label>
                         </div>
 
                         <div class="form-group">
                             <label>
-                                <textarea name="massage" placeholder="Your Message"></textarea>
+                                <textarea id="message" name="massage" placeholder="Your Message"></textarea>
                             </label>
                         </div>
 
@@ -429,8 +453,10 @@
     </div>
 
     <ul class="footer-icon">
-        <li><a href="http://www.linkedin.com/in/eranga-hasakalum-silva-a63b11278"><i class="fa-brands fa-linkedin"></i></a></li>
-        <li><a href="https://www.facebook.com/profile.php?id=100081889696796&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="http://www.linkedin.com/in/eranga-hasakalum-silva-a63b11278"><i class="fa-brands fa-linkedin"></i></a>
+        </li>
+        <li><a href="https://www.facebook.com/profile.php?id=100081889696796&mibextid=ZbWKwL"><i
+                class="fa-brands fa-facebook"></i></a></li>
         <li><a href="https://www.instagram.com/erangahasakalum_silva/"><i class="fa-brands fa-instagram"></i></a></li>
         <li><a href="https://github.com/erangahasakalum"><i class="fa-brands fa-github"></i></a></li>
     </ul>
@@ -446,11 +472,10 @@
     </ul>
     <p>Copyright © ErangaHasakalum</p>
 </footer>
-
 <script src="assets/lib/jquery-3.7.1.min.js"></script>
 <script src="assets/js/nav.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+<script src="assets/js/contact.js"></script>
 <script>
     AOS.init();
 </script>

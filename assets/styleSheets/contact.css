@@ -5,6 +5,12 @@
     margin-bottom: 3.5rem;
 }
 
+.contact-area h2{
+    text-align: center;
+    color: var(--txt-colour);
+    font-size: 50px;
+}
+
 .contact-container{
     max-width: 800px;
     margin: 0 auto;
@@ -52,13 +58,19 @@
 }
 
 #contact-btn{
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: #4caf50;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+    padding: 15px 28px;
+    background-color: #7FFF00;
+    color: var(--txt-colour);
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
     transition: 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    top: 2rem;
 }
 
 #contact-btn:hover{
@@ -86,24 +98,88 @@
     margin-right: 10px;
 
 }
+
+
+/* Styles for Mobile Medium (321px to 375px) */
+@media all and (min-width: 321px) and (max-width: 375px) {
+    .contact-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+
+    }
+
+    #message{
+        height: 150px;
+    }
+
+    .contact-info p{
+        font-size: 13px;
+
+    }
+
+    .contact-area h2{
+        font-size: 25px;
+    }
+}
 /* Styles for Mobile Large (376px to 425px) */
 @media all and (min-width: 376px) and (max-width: 425px) {
+    .contact-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
 
+    }
+
+    #message{
+        height: 150px;
+    }
+
+    .contact-info p{
+        font-size: 17px;
+
+    }
+    .contact-area h2{
+        font-size: 25px;
+    }
 }
 
 /* Styles for Mobile Large (376px to 425px) */
 @media all and (min-width: 376px) and (max-width: 425px) {
+    .contact-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
 
+    }
+
+    #message{
+        height: 150px;
+    }
 }
 
 /* Styles for Tablet (426px to 768px) */
 @media all and (min-width: 426px) and (max-width: 768px) {
+    .contact-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
 
+    }
+
+    #message{
+        height: 150px;
+    }
 }
 
 /* Styles for Laptop (769px to 1024px) */
 @media all and (min-width: 769px) and (max-width: 1024px) {
-
+    #contact-btn{
+        padding: 10px 26px;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 15%;
+    }
 }
 
 
