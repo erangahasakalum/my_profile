@@ -1,3 +1,6 @@
+body{
+    background:linear-gradient(45deg,#E9F1FA,#00ABE4,#FFFFFF);
+}
 section>div{
     display: grid;
     grid-template-columns: repeat(6 , 1fr);
@@ -58,5 +61,19 @@ section>div{
     }
     100%{
         transform: rotate3d(0,20,0,360deg);
+    }
+}
+
+
+/* Styles for Mobile Medium (321px to 375px) */
+@media all and (min-width: 321px) and (max-width: 375px) {
+    section div{
+        grid-template-columns: 1fr;
+    }
+}
+/* Styles for Mobile Large (376px to 425px) */
+@media all and (min-width: 376px) and (max-width: 425px) {
+    section div{
+        grid-template-columns: 1fr;
     }
 }

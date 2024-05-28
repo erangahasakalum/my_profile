@@ -121,7 +121,13 @@
     .contact-area h2{
         font-size: 25px;
     }
+    #contact-btn{
+        padding: 8px 22px;
+        font-size: 13px;
+        font-weight: 600;
+    }
 }
+
 /* Styles for Mobile Large (376px to 425px) */
 @media all and (min-width: 376px) and (max-width: 425px) {
     .contact-wrapper{
@@ -142,19 +148,11 @@
     .contact-area h2{
         font-size: 25px;
     }
-}
 
-/* Styles for Mobile Large (376px to 425px) */
-@media all and (min-width: 376px) and (max-width: 425px) {
-    .contact-wrapper{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 2rem;
-
-    }
-
-    #message{
-        height: 150px;
+    #contact-btn{
+        padding: 8px 22px;
+        font-size: 13px;
+        font-weight: 600;
     }
 }
 
