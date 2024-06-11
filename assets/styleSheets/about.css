@@ -30,7 +30,7 @@
 
 .resume-btn {
     padding: 15px 28px;
-    background-color: #7FFF00;
+    background-color: lightblue;
     color: var(--txt-colour);
     border: 2px solid transparent;
     border-radius: 8px;
@@ -42,6 +42,10 @@
     text-decoration: none;
     position: relative;
     top: 2rem;
+}
+
+.resume-btn:hover{
+    background-color:#00ABE4 ;
 }
 
 /* Styles for Mobile Medium (321px to 375px) */

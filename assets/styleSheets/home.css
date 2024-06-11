@@ -13,7 +13,7 @@
 }
 
 .home-content span {
-    color: var(--main-colour);
+    color: #00ABE4;
 
 }
 
@@ -24,10 +24,10 @@
     width: 3rem;
     height: 3rem;
     background: transparent;
-    border: 0.1rem solid #7FFF00;
+    border: 0.1rem solid #00ABE4;
     font-size: 1.5rem;
     border-radius: 50%;
-    color: #7FFF00;
+    color: #00ABE4;
     margin: 2.5rem 1rem 2.5rem 0;
     transition: 0.3s ease;
     position: relative;

@@ -39,12 +39,12 @@
     <nav>
         <ul id="menu">
             <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="#about" id="about-on-action">About</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#skill">Skill</a></li>
             <li><a href="#projects">Project</a></li>
-            <li><a href="">Assignment</a></li>
-            <li><a href=""><span>Contact</span></a></li>
+            <li><a href="#assignment">Assignment</a></li>
+            <li><a href="#contact"><span>Contact</span></a></li>
         </ul>
     </nav>
     <div class="logo">
@@ -61,8 +61,8 @@
     <section class="home" id="home">
         <div class="home-content">
             <h1><span>He</span>llo<span>,</span></h1>
-            <h1><span>I</span>'<span>m</span> Eranga <br>Hasakalum.</h1>
-            <h3>Full stack Software Developer<span>.</span></h3>
+            <h1><span>I</span>'<span>m</span> Eranga <br>Hasakalum <span style="color: #00ABE4">.</span></h1>
+            <h3>Full stack Software Developer<span style="color: #00ABE4">.</span></h3>
 
             <div class="social-icon">
                 <a href="http://www.linkedin.com/in/eranga-hasakalum-silva-a63b11278"><i
@@ -73,22 +73,22 @@
                 <a href="https://github.com/erangahasakalum"><i class="fa-brands fa-github"></i></a>
             </div>
 
-            <a type="button" id="hire-me">Hire Me</a>
+           <!-- <a type="button" id="hire-me">Hire Me</a>-->
 
         </div>
-        <div class="home-image">
+        <div class="home-image" data-aos="flip-left">
             <img src="assets/img/Eranga.png" alt="">
         </div>
     </section>
 
     <!--about section design-->
     <section class="about" id="about" data-aos="fade-up">
-        <div class="about-img">
+        <div class="about-img" data-aos="flip-left">
             <img src="./assets/img/about_pic.jpg" alt="">
         </div>
 
         <div class="about-content">
-            <h2 class="heading" data-aos="zoom-in"> About <span>Me</span></h2>
+            <h2 class="heading" data-aos="zoom-in"> About <span style="color: #00ABE4">Me</span></h2>
             <p>I am Eranga Hasakalum. I am currently living in Beruwala.
                 I am an Information Technology undergraduate from IJSE.
                 I am very passionate about improving my coding skills & developing applications & websites.
@@ -103,7 +103,7 @@
     <section class="education" id="education">
 
         <h1 id="e-head" data-aos="zoom-in" class="heading"><i class="fas fa-graduation-cap"> </i> My
-            <span>Education</span></h1>
+            <span style="color: #00ABE4">Education</span></h1>
 
         <div class="rectangle-container">
 
@@ -155,42 +155,42 @@
         <h1 class="heading" data-aos="zoom-in">Skills</h1>
 
         <div class="container">
-            <div class="box">
+            <div class="box" data-aos="fade-up">
                 <img src="assets/img/java.png" alt="">
                 <h3>JAVA</h3>
             </div>
 
-            <div class="box">
+            <div class="box" data-aos="fade-up">
                 <img src="assets/img/mysql.png" alt="">
                 <h3>MYSQL</h3>
             </div>
 
-            <div class="box">
+            <div class="box" data-aos="fade-up">
                 <img src="assets/img/css.png" alt="">
                 <h3>CSS</h3>
             </div>
 
-            <div class="box">
+            <div class="box" data-aos="fade-up">
                 <img src="assets/img/html.png" alt="">
                 <h3>HTML</h3>
             </div>
 
-            <div class="box">
+            <div class="box" data-aos="fade-up">
                 <img src="assets/img/github.png" alt="">
                 <h3>GITHUB</h3>
             </div>
 
-            <div class="box">
+            <div class="box" data-aos="fade-up">
                 <img src="assets/img/figma.png" alt="">
                 <h3>FIGMA</h3>
             </div>
 
-            <div class="box">
+            <div class="box" data-aos="fade-up">
                 <img src="assets/img/linux.png" alt="">
                 <h3>LINUX</h3>
             </div>
 
-            <div class="box">
+            <div class="box" data-aos="fade-up">
                 <img src="assets/img/js.png" alt="">
                 <h3>JAVASCRIPT</h3>
             </div>
@@ -205,11 +205,10 @@
         <div class="project-container">
             <div class="card-container" data-aos="fade-up">
                 <div class="project-content">
-                    <img src="assets/img/projects.png" alt="">
+                    <img src="assets/img/p6.png" alt="">
 
                     <div class="content-data">
-                        <h2>First sem final</h2>
-                        <span>Lorem ipsum dolor sit amet.</span>
+                        <h2>Hotel Management</h2>
                         <a href="#" class="p-btn"><i class="fa-solid fa-code"></i></a>
                     </div>
                 </div>
@@ -217,11 +216,10 @@
 
             <div class="card-container" data-aos="fade-up">
                 <div class="project-content">
-                    <img src="assets/img/projects.png" alt="">
+                    <img src="assets/img/p6.png" alt="">
 
                     <div class="content-data">
-                        <h2>First sem final</h2>
-                        <span>Lorem ipsum dolor sit amet.</span>
+                        <h2>Stores Management</h2>
                         <a href="#" class="p-btn"><i class="fa-solid fa-code"></i></a>
                     </div>
                 </div>
@@ -229,11 +227,10 @@
 
             <div class="card-container" data-aos="fade-up">
                 <div class="project-content">
-                    <img src="assets/img/projects.png" alt="">
+                    <img src="assets/img/p6.png" alt="">
 
                     <div class="content-data">
                         <h2>First sem final</h2>
-                        <span>Lorem ipsum dolor sit amet.</span>
                         <a href="#" class="p-btn"><i class="fa-solid fa-code"></i></a>
                     </div>
                 </div>
@@ -245,8 +242,8 @@
     <!--    assignment area-->
     <section id="assignment" class="assignment">
         <h2 class="assignment-heading" data-aos="zoom-in">Assignment</h2>
-        <div class="assignment-area">
-            <div class="card">
+        <div class="assignment-area" >
+            <div class="card" data-aos="fade-up">
                 <div class="imgBx">
                     <img src="assets/img/assignment.png" alt="">
                 </div>
@@ -258,7 +255,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <div class="imgBx">
                     <img src="assets/img/assignment.png" alt="">
                 </div>
@@ -270,7 +267,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <div class="imgBx">
                     <img src="assets/img/assignment.png" alt="">
                 </div>
@@ -283,7 +280,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <div class="imgBx">
                     <img src="assets/img/assignment.png" alt="">
                 </div>
@@ -296,7 +293,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <div class="imgBx">
                     <img src="assets/img/assignment.png" alt="">
                 </div>
@@ -308,7 +305,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <div class="imgBx">
                     <img src="assets/img/assignment.png" alt="">
                 </div>
@@ -321,7 +318,7 @@
             </div>
 
 
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <div class="imgBx">
                     <img src="assets/img/assignment.png" alt="">
                 </div>
@@ -333,7 +330,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <div class="imgBx">
                     <img src="assets/img/assignment.png" alt="">
                 </div>
@@ -345,7 +342,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <div class="imgBx">
                     <img src="assets/img/assignment.png" alt="">
                 </div>
@@ -357,7 +354,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <div class="imgBx">
                     <img src="assets/img/assignment.png" alt="">
                 </div>
@@ -369,7 +366,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <div class="imgBx">
                     <img src="assets/img/assignment.png" alt="">
                 </div>
@@ -381,7 +378,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <div class="imgBx">
                     <img src="assets/img/assignment.png" alt="">
                 </div>
@@ -470,6 +467,7 @@
 <script src="assets/js/nav.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="assets/js/contact.js"></script>
+<script src="assets/js/main.js"></script>
 <script>
     AOS.init();
 </script>

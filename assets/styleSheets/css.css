@@ -2,7 +2,7 @@
     --nav-colour: gray;
     --txt-colour: black;
     --bg-colour: #181616;
-    --main-colour: #7FFF00;
+    --main-colour: linear-gradient(45deg,#E9F1FA,#00ABE4,#FFFFFF);
     --second-bg-colour: #262B40;
 }
 
@@ -29,9 +29,7 @@ img {
     max-width: 100%;
 }
 
-/*section{
-    height: 100vh;
-}*/
+
 
 
 

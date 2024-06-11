@@ -27,7 +27,7 @@
     flex-direction: row;
     width: 80%;
     border-radius: 0.5rem;
-    box-shadow: 0.2rem 0.5rem 1rem rgb(127, 255, 0);
+    box-shadow: 0.2rem 0.5rem 1rem black;
     text-align: center;
     position: relative;
     margin-top: 2rem;

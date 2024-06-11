@@ -59,7 +59,7 @@
 
 #contact-btn{
     padding: 15px 28px;
-    background-color: #7FFF00;
+    background-color: var(--main-colour);
     color: var(--txt-colour);
     border: 2px solid transparent;
     border-radius: 8px;
@@ -70,11 +70,14 @@
     cursor: pointer;
     text-decoration: none;
     position: relative;
-    top: 2rem;
+}
+
+#contact-btn{
+    background-color: lightblue;
 }
 
 #contact-btn:hover{
-    background-color: #45a049;
+    background-color: #00ABE4;
 }
 
 .contact-info{
@@ -94,7 +97,7 @@
 }
 
 .contact-info i{
-    color: #4caf50;
+    color: #00ABE4;
     margin-right: 10px;
 
 }
